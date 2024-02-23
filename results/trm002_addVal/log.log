@@ -1,0 +1,1471 @@
+2024-01-12 16:15:09,667 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/train_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:15:26,180 - vali MSE:0.1282, MAE:16.6227,MAEP:34.5053
+2024-01-12 16:15:26,182 - Epoch: 0, train loss: 7.5727, vali loss: 0.1282
+2024-01-12 16:15:27,177 - vali MSE:0.0603, MAE:10.8061,MAEP:14.6788
+2024-01-12 16:15:27,178 - Epoch: 1, train loss: 0.1909, vali loss: 0.0603
+2024-01-12 16:15:27,992 - vali MSE:0.1083, MAE:14.6363,MAEP:18.5228
+2024-01-12 16:15:27,994 - Epoch: 2, train loss: 0.0738, vali loss: 0.1083
+2024-01-12 16:15:28,812 - vali MSE:0.1044, MAE:14.3527,MAEP:18.2470
+2024-01-12 16:15:28,814 - Epoch: 3, train loss: 0.0906, vali loss: 0.1044
+2024-01-12 16:15:29,632 - vali MSE:0.1102, MAE:14.7748,MAEP:18.6568
+2024-01-12 16:15:29,633 - Epoch: 4, train loss: 0.1042, vali loss: 0.1102
+2024-01-12 16:15:30,449 - vali MSE:0.1267, MAE:15.9739,MAEP:19.8149
+2024-01-12 16:15:30,450 - Epoch: 5, train loss: 0.1171, vali loss: 0.1267
+2024-01-12 16:15:31,268 - vali MSE:0.1387, MAE:16.8644,MAEP:20.6717
+2024-01-12 16:15:31,269 - Epoch: 6, train loss: 0.1162, vali loss: 0.1387
+2024-01-12 16:15:32,093 - vali MSE:0.1589, MAE:18.3005,MAEP:22.0266
+2024-01-12 16:15:32,094 - Epoch: 7, train loss: 0.1173, vali loss: 0.1589
+2024-01-12 16:15:32,910 - vali MSE:0.1870, MAE:20.2047,MAEP:23.7698
+2024-01-12 16:15:32,911 - Epoch: 8, train loss: 0.1233, vali loss: 0.1870
+2024-01-12 16:15:33,728 - vali MSE:0.1775, MAE:19.5761,MAEP:23.2018
+2024-01-12 16:15:33,730 - Epoch: 9, train loss: 0.1193, vali loss: 0.1775
+2024-01-12 16:15:34,548 - vali MSE:0.1680, MAE:18.9262,MAEP:22.6057
+2024-01-12 16:15:34,549 - Epoch: 10, train loss: 0.1123, vali loss: 0.1680
+2024-01-12 16:15:35,363 - vali MSE:0.1659, MAE:18.7868,MAEP:22.4772
+2024-01-12 16:15:35,364 - Epoch: 11, train loss: 0.1203, vali loss: 0.1659
+2024-01-12 16:15:36,178 - vali MSE:0.1719, MAE:19.1977,MAEP:22.8559
+2024-01-12 16:15:36,179 - Epoch: 12, train loss: 0.1217, vali loss: 0.1719
+2024-01-12 16:15:36,995 - vali MSE:0.1666, MAE:18.8338,MAEP:22.5207
+2024-01-12 16:15:36,996 - Epoch: 13, train loss: 0.1231, vali loss: 0.1666
+2024-01-12 16:15:37,809 - vali MSE:0.1537, MAE:17.9423,MAEP:21.6926
+2024-01-12 16:15:37,811 - Epoch: 14, train loss: 0.1178, vali loss: 0.1537
+2024-01-12 16:15:38,627 - vali MSE:0.1486, MAE:17.5777,MAEP:21.3501
+2024-01-12 16:15:38,628 - Epoch: 15, train loss: 0.1234, vali loss: 0.1486
+2024-01-12 16:15:39,439 - vali MSE:0.1264, MAE:15.9537,MAEP:19.7953
+2024-01-12 16:15:39,441 - Epoch: 16, train loss: 0.1250, vali loss: 0.1264
+2024-01-12 16:15:40,257 - vali MSE:0.1160, MAE:15.1856,MAEP:19.0520
+2024-01-12 16:15:40,258 - Epoch: 17, train loss: 0.1200, vali loss: 0.1160
+2024-01-12 16:15:41,075 - vali MSE:0.0919, MAE:13.4048,MAEP:17.3130
+2024-01-12 16:15:41,076 - Epoch: 18, train loss: 0.1198, vali loss: 0.0919
+2024-01-12 16:15:41,950 - vali MSE:0.0744, MAE:12.0051,MAEP:15.9047
+2024-01-12 16:15:41,952 - Epoch: 19, train loss: 0.1107, vali loss: 0.0744
+2024-01-12 16:15:42,804 - vali MSE:0.0674, MAE:11.4115,MAEP:15.2972
+2024-01-12 16:15:42,805 - Epoch: 20, train loss: 0.1048, vali loss: 0.0674
+2024-01-12 16:15:43,739 - vali MSE:0.0644, MAE:11.1632,MAEP:15.0441
+2024-01-12 16:15:43,740 - Epoch: 21, train loss: 0.1010, vali loss: 0.0644
+2024-01-12 16:15:44,568 - vali MSE:0.0722, MAE:11.8235,MAEP:15.7192
+2024-01-12 16:15:44,570 - Epoch: 22, train loss: 0.0948, vali loss: 0.0722
+2024-01-12 16:15:45,455 - vali MSE:0.0681, MAE:11.4759,MAEP:15.3626
+2024-01-12 16:15:45,457 - Epoch: 23, train loss: 0.0979, vali loss: 0.0681
+2024-01-12 16:15:46,274 - vali MSE:0.0604, MAE:10.8154,MAEP:14.6883
+2024-01-12 16:15:46,275 - Epoch: 24, train loss: 0.0970, vali loss: 0.0604
+2024-01-12 16:15:47,091 - vali MSE:0.0589, MAE:10.6864,MAEP:14.5558
+2024-01-12 16:15:47,092 - Epoch: 25, train loss: 0.0978, vali loss: 0.0589
+2024-01-12 16:15:47,906 - vali MSE:0.0563, MAE:10.4586,MAEP:14.3239
+2024-01-12 16:15:47,908 - Epoch: 26, train loss: 0.0961, vali loss: 0.0563
+2024-01-12 16:15:48,727 - vali MSE:0.0537, MAE:10.2394,MAEP:14.1017
+2024-01-12 16:15:48,729 - Epoch: 27, train loss: 0.0887, vali loss: 0.0537
+2024-01-12 16:15:49,545 - vali MSE:0.0505, MAE:9.9522,MAEP:13.8109
+2024-01-12 16:15:49,546 - Epoch: 28, train loss: 0.0898, vali loss: 0.0505
+2024-01-12 16:15:50,372 - vali MSE:0.0516, MAE:10.0498,MAEP:13.9093
+2024-01-12 16:15:50,373 - Epoch: 29, train loss: 0.0875, vali loss: 0.0516
+2024-01-12 16:15:51,187 - vali MSE:0.0483, MAE:9.7524,MAEP:13.6079
+2024-01-12 16:15:51,189 - Epoch: 30, train loss: 0.0896, vali loss: 0.0483
+2024-01-12 16:15:52,004 - vali MSE:0.0471, MAE:9.6340,MAEP:13.4865
+2024-01-12 16:15:52,005 - Epoch: 31, train loss: 0.0880, vali loss: 0.0471
+2024-01-12 16:15:52,823 - vali MSE:0.0447, MAE:9.4031,MAEP:13.2497
+2024-01-12 16:15:52,824 - Epoch: 32, train loss: 0.0899, vali loss: 0.0447
+2024-01-12 16:15:53,640 - vali MSE:0.0446, MAE:9.3916,MAEP:13.2379
+2024-01-12 16:15:53,641 - Epoch: 33, train loss: 0.0875, vali loss: 0.0446
+2024-01-12 16:15:54,459 - vali MSE:0.0429, MAE:9.2167,MAEP:13.0568
+2024-01-12 16:15:54,460 - Epoch: 34, train loss: 0.0845, vali loss: 0.0429
+2024-01-12 16:15:55,277 - vali MSE:0.0423, MAE:9.1471,MAEP:12.9843
+2024-01-12 16:15:55,278 - Epoch: 35, train loss: 0.0798, vali loss: 0.0423
+2024-01-12 16:15:56,094 - vali MSE:0.0416, MAE:9.0691,MAEP:12.9026
+2024-01-12 16:15:56,095 - Epoch: 36, train loss: 0.0811, vali loss: 0.0416
+2024-01-12 16:15:56,916 - vali MSE:0.0405, MAE:8.9452,MAEP:12.7725
+2024-01-12 16:15:56,917 - Epoch: 37, train loss: 0.0824, vali loss: 0.0405
+2024-01-12 16:15:57,730 - vali MSE:0.0393, MAE:8.8082,MAEP:12.6309
+2024-01-12 16:15:57,731 - Epoch: 38, train loss: 0.0801, vali loss: 0.0393
+2024-01-12 16:15:58,553 - vali MSE:0.0402, MAE:8.9095,MAEP:12.7350
+2024-01-12 16:15:58,554 - Epoch: 39, train loss: 0.0769, vali loss: 0.0402
+2024-01-12 16:15:59,369 - vali MSE:0.0410, MAE:9.0033,MAEP:12.8334
+2024-01-12 16:15:59,371 - Epoch: 40, train loss: 0.0776, vali loss: 0.0410
+2024-01-12 16:16:00,189 - vali MSE:0.0400, MAE:8.8946,MAEP:12.7194
+2024-01-12 16:16:00,190 - Epoch: 41, train loss: 0.0750, vali loss: 0.0400
+2024-01-12 16:16:01,009 - vali MSE:0.0407, MAE:8.9679,MAEP:12.7963
+2024-01-12 16:16:01,010 - Epoch: 42, train loss: 0.0785, vali loss: 0.0407
+2024-01-12 16:16:01,826 - vali MSE:0.0405, MAE:8.9526,MAEP:12.7802
+2024-01-12 16:16:01,827 - Epoch: 43, train loss: 0.0767, vali loss: 0.0405
+2024-01-12 16:16:02,645 - vali MSE:0.0380, MAE:8.6659,MAEP:12.4868
+2024-01-12 16:16:02,646 - Epoch: 44, train loss: 0.0771, vali loss: 0.0380
+2024-01-12 16:16:03,460 - vali MSE:0.0371, MAE:8.5629,MAEP:12.3819
+2024-01-12 16:16:03,462 - Epoch: 45, train loss: 0.0752, vali loss: 0.0371
+2024-01-12 16:16:04,274 - vali MSE:0.0373, MAE:8.5846,MAEP:12.4040
+2024-01-12 16:16:04,276 - Epoch: 46, train loss: 0.0725, vali loss: 0.0373
+2024-01-12 16:16:05,091 - vali MSE:0.0384, MAE:8.7189,MAEP:12.5407
+2024-01-12 16:16:05,092 - Epoch: 47, train loss: 0.0731, vali loss: 0.0384
+2024-01-12 16:16:05,906 - vali MSE:0.0386, MAE:8.7336,MAEP:12.5555
+2024-01-12 16:16:05,908 - Epoch: 48, train loss: 0.0729, vali loss: 0.0386
+2024-01-12 16:16:06,724 - vali MSE:0.0379, MAE:8.6598,MAEP:12.4806
+2024-01-12 16:16:06,725 - Epoch: 49, train loss: 0.0736, vali loss: 0.0379
+2024-01-12 16:17:57,732 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/train_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:18:07,947 - Epoch: 0, train loss: 7.5727
+2024-01-12 16:18:08,848 - Epoch: 1, train loss: 0.1909
+2024-01-12 16:18:09,575 - Epoch: 2, train loss: 0.0738
+2024-01-12 16:18:10,307 - Epoch: 3, train loss: 0.0906
+2024-01-12 16:18:11,032 - Epoch: 4, train loss: 0.1042
+2024-01-12 16:18:11,752 - Epoch: 5, train loss: 0.1171
+2024-01-12 16:18:12,461 - Epoch: 6, train loss: 0.1162
+2024-01-12 16:18:13,177 - Epoch: 7, train loss: 0.1173
+2024-01-12 16:18:13,898 - Epoch: 8, train loss: 0.1233
+2024-01-12 16:18:14,614 - Epoch: 9, train loss: 0.1193
+2024-01-12 16:18:15,330 - Epoch: 10, train loss: 0.1123
+2024-01-12 16:18:16,049 - Epoch: 11, train loss: 0.1203
+2024-01-12 16:18:16,765 - Epoch: 12, train loss: 0.1217
+2024-01-12 16:18:17,482 - Epoch: 13, train loss: 0.1231
+2024-01-12 16:18:18,202 - Epoch: 14, train loss: 0.1178
+2024-01-12 16:18:18,919 - Epoch: 15, train loss: 0.1234
+2024-01-12 16:18:19,635 - Epoch: 16, train loss: 0.1250
+2024-01-12 16:18:20,403 - Epoch: 17, train loss: 0.1200
+2024-01-12 16:18:21,138 - Epoch: 18, train loss: 0.1198
+2024-01-12 16:18:21,862 - Epoch: 19, train loss: 0.1107
+2024-01-12 16:18:22,580 - Epoch: 20, train loss: 0.1048
+2024-01-12 16:18:23,295 - Epoch: 21, train loss: 0.1010
+2024-01-12 16:18:24,011 - Epoch: 22, train loss: 0.0948
+2024-01-12 16:18:24,728 - Epoch: 23, train loss: 0.0979
+2024-01-12 16:18:25,443 - Epoch: 24, train loss: 0.0970
+2024-01-12 16:18:26,162 - Epoch: 25, train loss: 0.0978
+2024-01-12 16:18:26,883 - Epoch: 26, train loss: 0.0961
+2024-01-12 16:18:27,597 - Epoch: 27, train loss: 0.0887
+2024-01-12 16:18:28,317 - Epoch: 28, train loss: 0.0898
+2024-01-12 16:18:29,036 - Epoch: 29, train loss: 0.0875
+2024-01-12 16:18:29,752 - Epoch: 30, train loss: 0.0896
+2024-01-12 16:18:30,473 - Epoch: 31, train loss: 0.0880
+2024-01-12 16:18:31,190 - Epoch: 32, train loss: 0.0899
+2024-01-12 16:18:31,903 - Epoch: 33, train loss: 0.0875
+2024-01-12 16:18:32,623 - Epoch: 34, train loss: 0.0845
+2024-01-12 16:18:33,344 - Epoch: 35, train loss: 0.0798
+2024-01-12 16:18:34,063 - Epoch: 36, train loss: 0.0811
+2024-01-12 16:18:34,781 - Epoch: 37, train loss: 0.0824
+2024-01-12 16:18:35,500 - Epoch: 38, train loss: 0.0801
+2024-01-12 16:18:36,218 - Epoch: 39, train loss: 0.0769
+2024-01-12 16:18:36,931 - Epoch: 40, train loss: 0.0776
+2024-01-12 16:18:37,645 - Epoch: 41, train loss: 0.0750
+2024-01-12 16:18:38,368 - Epoch: 42, train loss: 0.0785
+2024-01-12 16:18:39,086 - Epoch: 43, train loss: 0.0767
+2024-01-12 16:18:39,807 - Epoch: 44, train loss: 0.0771
+2024-01-12 16:18:40,523 - Epoch: 45, train loss: 0.0752
+2024-01-12 16:18:41,244 - Epoch: 46, train loss: 0.0725
+2024-01-12 16:18:41,963 - Epoch: 47, train loss: 0.0731
+2024-01-12 16:18:42,690 - Epoch: 48, train loss: 0.0729
+2024-01-12 16:18:43,418 - Epoch: 49, train loss: 0.0736
+2024-01-12 16:20:02,550 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/train_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:20:11,703 - Epoch: 0, train loss: 7.5727
+2024-01-12 16:20:12,414 - Epoch: 1, train loss: 0.1909
+2024-01-12 16:20:13,136 - Epoch: 2, train loss: 0.0738
+2024-01-12 16:20:13,865 - Epoch: 3, train loss: 0.0906
+2024-01-12 16:20:14,587 - Epoch: 4, train loss: 0.1042
+2024-01-12 16:20:15,317 - Epoch: 5, train loss: 0.1171
+2024-01-12 16:20:16,040 - Epoch: 6, train loss: 0.1162
+2024-01-12 16:20:16,766 - Epoch: 7, train loss: 0.1173
+2024-01-12 16:20:17,489 - Epoch: 8, train loss: 0.1233
+2024-01-12 16:20:18,216 - Epoch: 9, train loss: 0.1193
+2024-01-12 16:20:18,934 - Epoch: 10, train loss: 0.1123
+2024-01-12 16:20:19,659 - Epoch: 11, train loss: 0.1203
+2024-01-12 16:20:20,380 - Epoch: 12, train loss: 0.1217
+2024-01-12 16:20:21,103 - Epoch: 13, train loss: 0.1231
+2024-01-12 16:20:21,824 - Epoch: 14, train loss: 0.1178
+2024-01-12 16:20:22,545 - Epoch: 15, train loss: 0.1234
+2024-01-12 16:20:23,268 - Epoch: 16, train loss: 0.1250
+2024-01-12 16:20:23,990 - Epoch: 17, train loss: 0.1200
+2024-01-12 16:20:24,715 - Epoch: 18, train loss: 0.1198
+2024-01-12 16:20:25,434 - Epoch: 19, train loss: 0.1107
+2024-01-12 16:20:26,190 - Epoch: 20, train loss: 0.1048
+2024-01-12 16:20:26,983 - Epoch: 21, train loss: 0.1010
+2024-01-12 16:20:27,770 - Epoch: 22, train loss: 0.0948
+2024-01-12 16:20:28,547 - Epoch: 23, train loss: 0.0979
+2024-01-12 16:20:29,283 - Epoch: 24, train loss: 0.0970
+2024-01-12 16:20:30,008 - Epoch: 25, train loss: 0.0978
+2024-01-12 16:20:30,735 - Epoch: 26, train loss: 0.0961
+2024-01-12 16:20:31,456 - Epoch: 27, train loss: 0.0887
+2024-01-12 16:20:32,182 - Epoch: 28, train loss: 0.0898
+2024-01-12 16:20:32,920 - Epoch: 29, train loss: 0.0875
+2024-01-12 16:20:33,659 - Epoch: 30, train loss: 0.0896
+2024-01-12 16:20:34,397 - Epoch: 31, train loss: 0.0880
+2024-01-12 16:20:35,121 - Epoch: 32, train loss: 0.0899
+2024-01-12 16:20:35,843 - Epoch: 33, train loss: 0.0875
+2024-01-12 16:20:36,563 - Epoch: 34, train loss: 0.0845
+2024-01-12 16:20:37,287 - Epoch: 35, train loss: 0.0798
+2024-01-12 16:20:38,008 - Epoch: 36, train loss: 0.0811
+2024-01-12 16:20:38,730 - Epoch: 37, train loss: 0.0824
+2024-01-12 16:20:39,453 - Epoch: 38, train loss: 0.0801
+2024-01-12 16:20:40,177 - Epoch: 39, train loss: 0.0769
+2024-01-12 16:20:40,901 - Epoch: 40, train loss: 0.0776
+2024-01-12 16:20:41,627 - Epoch: 41, train loss: 0.0750
+2024-01-12 16:20:42,347 - Epoch: 42, train loss: 0.0785
+2024-01-12 16:20:43,070 - Epoch: 43, train loss: 0.0767
+2024-01-12 16:20:43,800 - Epoch: 44, train loss: 0.0771
+2024-01-12 16:20:44,522 - Epoch: 45, train loss: 0.0752
+2024-01-12 16:20:45,262 - Epoch: 46, train loss: 0.0725
+2024-01-12 16:20:46,027 - Epoch: 47, train loss: 0.0731
+2024-01-12 16:20:46,783 - Epoch: 48, train loss: 0.0729
+2024-01-12 16:20:47,762 - Epoch: 49, train loss: 0.0736
+2024-01-12 16:24:44,868 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	100	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:25:05,504 - Epoch: 0, train loss: 5.4332
+2024-01-12 16:25:06,571 - Epoch: 1, train loss: 0.0363
+2024-01-12 16:25:07,649 - Epoch: 2, train loss: 0.0103
+2024-01-12 16:25:08,729 - Epoch: 3, train loss: 0.0095
+2024-01-12 16:25:09,804 - Epoch: 4, train loss: 0.0102
+2024-01-12 16:25:10,886 - Epoch: 5, train loss: 0.0098
+2024-01-12 16:25:11,963 - Epoch: 6, train loss: 0.0111
+2024-01-12 16:25:13,037 - Epoch: 7, train loss: 0.0094
+2024-01-12 16:25:14,109 - Epoch: 8, train loss: 0.0083
+2024-01-12 16:25:15,187 - Epoch: 9, train loss: 0.0084
+2024-01-12 16:25:16,259 - Epoch: 10, train loss: 0.0076
+2024-01-12 16:25:17,337 - Epoch: 11, train loss: 0.0073
+2024-01-12 16:25:18,415 - Epoch: 12, train loss: 0.0083
+2024-01-12 16:25:19,492 - Epoch: 13, train loss: 0.0067
+2024-01-12 16:25:20,570 - Epoch: 14, train loss: 0.0066
+2024-01-12 16:25:21,644 - Epoch: 15, train loss: 0.0050
+2024-01-12 16:25:22,720 - Epoch: 16, train loss: 0.0054
+2024-01-12 16:25:23,799 - Epoch: 17, train loss: 0.0058
+2024-01-12 16:25:24,877 - Epoch: 18, train loss: 0.0063
+2024-01-12 16:25:25,954 - Epoch: 19, train loss: 0.0051
+2024-01-12 16:25:27,039 - Epoch: 20, train loss: 0.0044
+2024-01-12 16:25:28,117 - Epoch: 21, train loss: 0.0043
+2024-01-12 16:25:29,197 - Epoch: 22, train loss: 0.0041
+2024-01-12 16:25:30,273 - Epoch: 23, train loss: 0.0034
+2024-01-12 16:25:31,349 - Epoch: 24, train loss: 0.0033
+2024-01-12 16:25:32,426 - Epoch: 25, train loss: 0.0035
+2024-01-12 16:25:33,501 - Epoch: 26, train loss: 0.0030
+2024-01-12 16:25:34,577 - Epoch: 27, train loss: 0.0026
+2024-01-12 16:25:35,655 - Epoch: 28, train loss: 0.0024
+2024-01-12 16:25:36,736 - Epoch: 29, train loss: 0.0024
+2024-01-12 16:25:37,810 - Epoch: 30, train loss: 0.0023
+2024-01-12 16:25:38,889 - Epoch: 31, train loss: 0.0023
+2024-01-12 16:25:39,969 - Epoch: 32, train loss: 0.0027
+2024-01-12 16:25:41,041 - Epoch: 33, train loss: 0.0019
+2024-01-12 16:25:42,116 - Epoch: 34, train loss: 0.0017
+2024-01-12 16:25:43,192 - Epoch: 35, train loss: 0.0016
+2024-01-12 16:25:44,293 - Epoch: 36, train loss: 0.0017
+2024-01-12 16:25:45,442 - Epoch: 37, train loss: 0.0013
+2024-01-12 16:25:46,583 - Epoch: 38, train loss: 0.0010
+2024-01-12 16:25:47,765 - Epoch: 39, train loss: 0.0010
+2024-01-12 16:25:48,961 - Epoch: 40, train loss: 0.0010
+2024-01-12 16:25:50,128 - Epoch: 41, train loss: 0.0009
+2024-01-12 16:25:51,239 - Epoch: 42, train loss: 0.0009
+2024-01-12 16:25:52,432 - Epoch: 43, train loss: 0.0008
+2024-01-12 16:25:53,528 - Epoch: 44, train loss: 0.0007
+2024-01-12 16:25:54,640 - Epoch: 45, train loss: 0.0007
+2024-01-12 16:25:55,788 - Epoch: 46, train loss: 0.0007
+2024-01-12 16:25:56,919 - Epoch: 47, train loss: 0.0006
+2024-01-12 16:25:58,006 - Epoch: 48, train loss: 0.0008
+2024-01-12 16:25:59,293 - Epoch: 49, train loss: 0.0004
+2024-01-12 16:26:00,481 - Epoch: 50, train loss: 0.0004
+2024-01-12 16:26:01,673 - Epoch: 51, train loss: 0.0004
+2024-01-12 16:26:02,844 - Epoch: 52, train loss: 0.0004
+2024-01-12 16:26:03,987 - Epoch: 53, train loss: 0.0004
+2024-01-12 16:26:05,086 - Epoch: 54, train loss: 0.0003
+2024-01-12 16:26:06,234 - Epoch: 55, train loss: 0.0003
+2024-01-12 16:26:07,345 - Epoch: 56, train loss: 0.0003
+2024-01-12 16:26:08,455 - Epoch: 57, train loss: 0.0003
+2024-01-12 16:26:09,541 - Epoch: 58, train loss: 0.0003
+2024-01-12 16:26:10,649 - Epoch: 59, train loss: 0.0003
+2024-01-12 16:26:11,831 - Epoch: 60, train loss: 0.0003
+2024-01-12 16:26:12,914 - Epoch: 61, train loss: 0.0002
+2024-01-12 16:26:14,104 - Epoch: 62, train loss: 0.0002
+2024-01-12 16:26:15,232 - Epoch: 63, train loss: 0.0002
+2024-01-12 16:26:16,351 - Epoch: 64, train loss: 0.0002
+2024-01-12 16:26:17,428 - Epoch: 65, train loss: 0.0002
+2024-01-12 16:26:18,501 - Epoch: 66, train loss: 0.0001
+2024-01-12 16:26:19,590 - Epoch: 67, train loss: 0.0002
+2024-01-12 16:26:20,703 - Epoch: 68, train loss: 0.0002
+2024-01-12 16:26:21,805 - Epoch: 69, train loss: 0.0002
+2024-01-12 16:26:22,917 - Epoch: 70, train loss: 0.0002
+2024-01-12 16:26:24,016 - Epoch: 71, train loss: 0.0003
+2024-01-12 16:26:25,101 - Epoch: 72, train loss: 0.0001
+2024-01-12 16:26:26,184 - Epoch: 73, train loss: 0.0001
+2024-01-12 16:26:27,278 - Epoch: 74, train loss: 0.0001
+2024-01-12 16:26:28,367 - Epoch: 75, train loss: 0.0001
+2024-01-12 16:26:29,465 - Epoch: 76, train loss: 0.0001
+2024-01-12 16:26:30,593 - Epoch: 77, train loss: 0.0001
+2024-01-12 16:26:31,681 - Epoch: 78, train loss: 0.0001
+2024-01-12 16:26:32,781 - Epoch: 79, train loss: 0.0001
+2024-01-12 16:26:33,870 - Epoch: 80, train loss: 0.0001
+2024-01-12 16:26:34,978 - Epoch: 81, train loss: 0.0001
+2024-01-12 16:26:36,076 - Epoch: 82, train loss: 0.0001
+2024-01-12 16:26:37,176 - Epoch: 83, train loss: 0.0001
+2024-01-12 16:26:38,258 - Epoch: 84, train loss: 0.0001
+2024-01-12 16:26:39,447 - Epoch: 85, train loss: 0.0001
+2024-01-12 16:26:40,587 - Epoch: 86, train loss: 0.0001
+2024-01-12 16:26:41,729 - Epoch: 87, train loss: 0.0001
+2024-01-12 16:26:42,964 - Epoch: 88, train loss: 0.0001
+2024-01-12 16:26:44,077 - Epoch: 89, train loss: 0.0001
+2024-01-12 16:26:45,280 - Epoch: 90, train loss: 0.0001
+2024-01-12 16:26:46,376 - Epoch: 91, train loss: 0.0001
+2024-01-12 16:26:47,476 - Epoch: 92, train loss: 0.0001
+2024-01-12 16:26:48,774 - Epoch: 93, train loss: 0.0001
+2024-01-12 16:26:49,897 - Epoch: 94, train loss: 0.0001
+2024-01-12 16:26:51,246 - Epoch: 95, train loss: 0.0001
+2024-01-12 16:26:52,329 - Epoch: 96, train loss: 0.0001
+2024-01-12 16:26:53,407 - Epoch: 97, train loss: 0.0001
+2024-01-12 16:26:54,670 - Epoch: 98, train loss: 0.0001
+2024-01-12 16:26:55,772 - Epoch: 99, train loss: 0.0001
+2024-01-12 16:39:36,419 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	100	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:39:57,737 - Epoch: 0, train loss: 5.1346
+2024-01-12 16:39:58,829 - Epoch: 1, train loss: 0.1081
+2024-01-12 16:39:59,921 - Epoch: 2, train loss: 0.0616
+2024-01-12 16:40:01,014 - Epoch: 3, train loss: 0.0765
+2024-01-12 16:40:02,098 - Epoch: 4, train loss: 0.0729
+2024-01-12 16:40:03,187 - Epoch: 5, train loss: 0.0793
+2024-01-12 16:40:04,296 - Epoch: 6, train loss: 0.0891
+2024-01-12 16:40:05,400 - Epoch: 7, train loss: 0.0903
+2024-01-12 16:40:06,495 - Epoch: 8, train loss: 0.0893
+2024-01-12 16:40:07,591 - Epoch: 9, train loss: 0.0859
+2024-01-12 16:40:08,692 - Epoch: 10, train loss: 0.0848
+2024-01-12 16:40:09,786 - Epoch: 11, train loss: 0.0900
+2024-01-12 16:40:10,979 - Epoch: 12, train loss: 0.0841
+2024-01-12 16:40:12,079 - Epoch: 13, train loss: 0.0837
+2024-01-12 16:40:13,169 - Epoch: 14, train loss: 0.0827
+2024-01-12 16:40:14,261 - Epoch: 15, train loss: 0.0787
+2024-01-12 16:40:15,351 - Epoch: 16, train loss: 0.0798
+2024-01-12 16:40:16,463 - Epoch: 17, train loss: 0.0779
+2024-01-12 16:40:17,562 - Epoch: 18, train loss: 0.0757
+2024-01-12 16:40:18,658 - Epoch: 19, train loss: 0.0777
+2024-01-12 16:40:19,760 - Epoch: 20, train loss: 0.0795
+2024-01-12 16:40:20,857 - Epoch: 21, train loss: 0.0759
+2024-01-12 16:40:21,988 - Epoch: 22, train loss: 0.0741
+2024-01-12 16:40:23,071 - Epoch: 23, train loss: 0.0703
+2024-01-12 16:40:24,159 - Epoch: 24, train loss: 0.0700
+2024-01-12 16:40:25,240 - Epoch: 25, train loss: 0.0715
+2024-01-12 16:40:26,323 - Epoch: 26, train loss: 0.0686
+2024-01-12 16:40:27,402 - Epoch: 27, train loss: 0.0709
+2024-01-12 16:40:28,490 - Epoch: 28, train loss: 0.0676
+2024-01-12 16:40:29,573 - Epoch: 29, train loss: 0.0665
+2024-01-12 16:40:30,653 - Epoch: 30, train loss: 0.0666
+2024-01-12 16:40:31,732 - Epoch: 31, train loss: 0.0664
+2024-01-12 16:40:32,819 - Epoch: 32, train loss: 0.0642
+2024-01-12 16:40:33,906 - Epoch: 33, train loss: 0.0658
+2024-01-12 16:40:34,997 - Epoch: 34, train loss: 0.0652
+2024-01-12 16:40:36,088 - Epoch: 35, train loss: 0.0612
+2024-01-12 16:40:37,169 - Epoch: 36, train loss: 0.0640
+2024-01-12 16:40:38,257 - Epoch: 37, train loss: 0.0616
+2024-01-12 16:40:39,343 - Epoch: 38, train loss: 0.0632
+2024-01-12 16:40:40,429 - Epoch: 39, train loss: 0.0613
+2024-01-12 16:40:41,517 - Epoch: 40, train loss: 0.0605
+2024-01-12 16:40:42,601 - Epoch: 41, train loss: 0.0621
+2024-01-12 16:40:43,686 - Epoch: 42, train loss: 0.0615
+2024-01-12 16:40:44,769 - Epoch: 43, train loss: 0.0592
+2024-01-12 16:40:45,851 - Epoch: 44, train loss: 0.0598
+2024-01-12 16:40:46,932 - Epoch: 45, train loss: 0.0591
+2024-01-12 16:40:48,014 - Epoch: 46, train loss: 0.0578
+2024-01-12 16:40:49,094 - Epoch: 47, train loss: 0.0584
+2024-01-12 16:40:50,188 - Epoch: 48, train loss: 0.0574
+2024-01-12 16:40:51,466 - Epoch: 49, train loss: 0.0572
+2024-01-12 16:40:52,539 - Epoch: 50, train loss: 0.0564
+2024-01-12 16:40:53,622 - Epoch: 51, train loss: 0.0558
+2024-01-12 16:40:54,706 - Epoch: 52, train loss: 0.0567
+2024-01-12 16:40:55,792 - Epoch: 53, train loss: 0.0561
+2024-01-12 16:40:56,881 - Epoch: 54, train loss: 0.0559
+2024-01-12 16:40:57,984 - Epoch: 55, train loss: 0.0562
+2024-01-12 16:40:59,155 - Epoch: 56, train loss: 0.0558
+2024-01-12 16:41:00,337 - Epoch: 57, train loss: 0.0554
+2024-01-12 16:41:01,498 - Epoch: 58, train loss: 0.0551
+2024-01-12 16:41:02,634 - Epoch: 59, train loss: 0.0547
+2024-01-12 16:41:03,781 - Epoch: 60, train loss: 0.0545
+2024-01-12 16:41:04,898 - Epoch: 61, train loss: 0.0542
+2024-01-12 16:41:05,985 - Epoch: 62, train loss: 0.0547
+2024-01-12 16:41:07,076 - Epoch: 63, train loss: 0.0546
+2024-01-12 16:41:08,165 - Epoch: 64, train loss: 0.0542
+2024-01-12 16:41:09,253 - Epoch: 65, train loss: 0.0542
+2024-01-12 16:41:10,345 - Epoch: 66, train loss: 0.0543
+2024-01-12 16:41:11,435 - Epoch: 67, train loss: 0.0544
+2024-01-12 16:41:12,661 - Epoch: 68, train loss: 0.0550
+2024-01-12 16:41:13,864 - Epoch: 69, train loss: 0.0544
+2024-01-12 16:41:15,096 - Epoch: 70, train loss: 0.0538
+2024-01-12 16:41:16,271 - Epoch: 71, train loss: 0.0542
+2024-01-12 16:41:17,385 - Epoch: 72, train loss: 0.0540
+2024-01-12 16:41:18,527 - Epoch: 73, train loss: 0.0538
+2024-01-12 16:41:19,622 - Epoch: 74, train loss: 0.0539
+2024-01-12 16:41:20,794 - Epoch: 75, train loss: 0.0542
+2024-01-12 16:41:21,976 - Epoch: 76, train loss: 0.0535
+2024-01-12 16:41:23,104 - Epoch: 77, train loss: 0.0534
+2024-01-12 16:41:24,198 - Epoch: 78, train loss: 0.0534
+2024-01-12 16:41:25,324 - Epoch: 79, train loss: 0.0538
+2024-01-12 16:41:26,480 - Epoch: 80, train loss: 0.0538
+2024-01-12 16:41:27,589 - Epoch: 81, train loss: 0.0537
+2024-01-12 16:41:28,700 - Epoch: 82, train loss: 0.0538
+2024-01-12 16:41:29,791 - Epoch: 83, train loss: 0.0545
+2024-01-12 16:41:30,884 - Epoch: 84, train loss: 0.0537
+2024-01-12 16:41:31,969 - Epoch: 85, train loss: 0.0540
+2024-01-12 16:41:33,051 - Epoch: 86, train loss: 0.0539
+2024-01-12 16:41:34,137 - Epoch: 87, train loss: 0.0535
+2024-01-12 16:41:35,227 - Epoch: 88, train loss: 0.0535
+2024-01-12 16:41:36,308 - Epoch: 89, train loss: 0.0537
+2024-01-12 16:41:37,396 - Epoch: 90, train loss: 0.0540
+2024-01-12 16:41:38,487 - Epoch: 91, train loss: 0.0530
+2024-01-12 16:41:39,578 - Epoch: 92, train loss: 0.0529
+2024-01-12 16:41:40,727 - Epoch: 93, train loss: 0.0521
+2024-01-12 16:41:41,816 - Epoch: 94, train loss: 0.0522
+2024-01-12 16:41:42,900 - Epoch: 95, train loss: 0.0519
+2024-01-12 16:41:43,980 - Epoch: 96, train loss: 0.0515
+2024-01-12 16:41:45,067 - Epoch: 97, train loss: 0.0507
+2024-01-12 16:41:46,337 - Epoch: 98, train loss: 0.0509
+2024-01-12 16:41:47,404 - Epoch: 99, train loss: 0.0508
+2024-01-12 16:47:49,424 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:49:05,026 - Epoch: 0, train loss: 9.2621
+2024-01-12 16:50:30,001 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:50:50,799 - Epoch: 0, train loss: 9.2621
+2024-01-12 16:50:51,421 - Epoch: 1, train loss: 0.1926
+2024-01-12 16:50:52,044 - Epoch: 2, train loss: 0.0921
+2024-01-12 16:50:52,665 - Epoch: 3, train loss: 0.0593
+2024-01-12 16:50:53,289 - Epoch: 4, train loss: 0.0542
+2024-01-12 16:50:53,911 - Epoch: 5, train loss: 0.0617
+2024-01-12 16:50:54,536 - Epoch: 6, train loss: 0.0618
+2024-01-12 16:50:55,158 - Epoch: 7, train loss: 0.0641
+2024-01-12 16:50:55,782 - Epoch: 8, train loss: 0.0613
+2024-01-12 16:50:56,407 - Epoch: 9, train loss: 0.0625
+2024-01-12 16:50:57,031 - Epoch: 10, train loss: 0.0694
+2024-01-12 16:50:57,653 - Epoch: 11, train loss: 0.0708
+2024-01-12 16:50:58,280 - Epoch: 12, train loss: 0.0727
+2024-01-12 16:50:58,904 - Epoch: 13, train loss: 0.0736
+2024-01-12 16:50:59,525 - Epoch: 14, train loss: 0.0728
+2024-01-12 16:51:00,148 - Epoch: 15, train loss: 0.0728
+2024-01-12 16:51:00,770 - Epoch: 16, train loss: 0.0693
+2024-01-12 16:51:01,394 - Epoch: 17, train loss: 0.0706
+2024-01-12 16:51:02,015 - Epoch: 18, train loss: 0.0724
+2024-01-12 16:51:02,642 - Epoch: 19, train loss: 0.0741
+2024-01-12 16:51:03,266 - Epoch: 20, train loss: 0.0725
+2024-01-12 16:51:03,890 - Epoch: 21, train loss: 0.0744
+2024-01-12 16:51:04,513 - Epoch: 22, train loss: 0.0738
+2024-01-12 16:51:05,135 - Epoch: 23, train loss: 0.0669
+2024-01-12 16:51:05,757 - Epoch: 24, train loss: 0.0696
+2024-01-12 16:51:06,379 - Epoch: 25, train loss: 0.0700
+2024-01-12 16:51:07,031 - Epoch: 26, train loss: 0.0696
+2024-01-12 16:51:07,669 - Epoch: 27, train loss: 0.0676
+2024-01-12 16:51:08,326 - Epoch: 28, train loss: 0.0668
+2024-01-12 16:51:08,980 - Epoch: 29, train loss: 0.0658
+2024-01-12 16:51:09,605 - Epoch: 30, train loss: 0.0703
+2024-01-12 16:51:10,256 - Epoch: 31, train loss: 0.0674
+2024-01-12 16:51:10,874 - Epoch: 32, train loss: 0.0659
+2024-01-12 16:51:11,494 - Epoch: 33, train loss: 0.0660
+2024-01-12 16:51:12,113 - Epoch: 34, train loss: 0.0660
+2024-01-12 16:51:12,732 - Epoch: 35, train loss: 0.0656
+2024-01-12 16:51:13,350 - Epoch: 36, train loss: 0.0634
+2024-01-12 16:51:13,970 - Epoch: 37, train loss: 0.0605
+2024-01-12 16:51:14,592 - Epoch: 38, train loss: 0.0629
+2024-01-12 16:51:15,216 - Epoch: 39, train loss: 0.0627
+2024-01-12 16:51:15,837 - Epoch: 40, train loss: 0.0617
+2024-01-12 16:51:16,459 - Epoch: 41, train loss: 0.0609
+2024-01-12 16:51:17,100 - Epoch: 42, train loss: 0.0609
+2024-01-12 16:51:17,731 - Epoch: 43, train loss: 0.0625
+2024-01-12 16:51:18,387 - Epoch: 44, train loss: 0.0597
+2024-01-12 16:51:19,005 - Epoch: 45, train loss: 0.0610
+2024-01-12 16:51:19,625 - Epoch: 46, train loss: 0.0613
+2024-01-12 16:51:20,273 - Epoch: 47, train loss: 0.0603
+2024-01-12 16:51:20,914 - Epoch: 48, train loss: 0.0612
+2024-01-12 16:51:21,533 - Epoch: 49, train loss: 0.0603
+2024-01-12 16:53:39,065 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:54:00,201 - Epoch: 0, train loss: 9.2621
+2024-01-12 16:54:00,824 - Epoch: 1, train loss: 0.1926
+2024-01-12 16:54:01,447 - Epoch: 2, train loss: 0.0921
+2024-01-12 16:54:02,071 - Epoch: 3, train loss: 0.0593
+2024-01-12 16:54:02,696 - Epoch: 4, train loss: 0.0542
+2024-01-12 16:54:03,319 - Epoch: 5, train loss: 0.0617
+2024-01-12 16:54:03,944 - Epoch: 6, train loss: 0.0618
+2024-01-12 16:54:04,569 - Epoch: 7, train loss: 0.0641
+2024-01-12 16:54:05,194 - Epoch: 8, train loss: 0.0613
+2024-01-12 16:54:05,816 - Epoch: 9, train loss: 0.0625
+2024-01-12 16:54:06,444 - Epoch: 10, train loss: 0.0694
+2024-01-12 16:54:07,071 - Epoch: 11, train loss: 0.0708
+2024-01-12 16:54:07,698 - Epoch: 12, train loss: 0.0727
+2024-01-12 16:54:08,322 - Epoch: 13, train loss: 0.0736
+2024-01-12 16:54:08,947 - Epoch: 14, train loss: 0.0728
+2024-01-12 16:54:09,577 - Epoch: 15, train loss: 0.0728
+2024-01-12 16:54:10,213 - Epoch: 16, train loss: 0.0693
+2024-01-12 16:54:10,948 - Epoch: 17, train loss: 0.0706
+2024-01-12 16:54:11,685 - Epoch: 18, train loss: 0.0724
+2024-01-12 16:54:12,406 - Epoch: 19, train loss: 0.0741
+2024-01-12 16:54:13,028 - Epoch: 20, train loss: 0.0725
+2024-01-12 16:54:13,653 - Epoch: 21, train loss: 0.0744
+2024-01-12 16:54:14,273 - Epoch: 22, train loss: 0.0738
+2024-01-12 16:54:14,891 - Epoch: 23, train loss: 0.0669
+2024-01-12 16:54:15,518 - Epoch: 24, train loss: 0.0696
+2024-01-12 16:54:16,160 - Epoch: 25, train loss: 0.0700
+2024-01-12 16:54:16,868 - Epoch: 26, train loss: 0.0696
+2024-01-12 16:54:17,566 - Epoch: 27, train loss: 0.0676
+2024-01-12 16:54:18,275 - Epoch: 28, train loss: 0.0668
+2024-01-12 16:54:18,949 - Epoch: 29, train loss: 0.0658
+2024-01-12 16:54:19,571 - Epoch: 30, train loss: 0.0703
+2024-01-12 16:54:20,241 - Epoch: 31, train loss: 0.0674
+2024-01-12 16:54:20,917 - Epoch: 32, train loss: 0.0659
+2024-01-12 16:54:21,573 - Epoch: 33, train loss: 0.0660
+2024-01-12 16:54:22,233 - Epoch: 34, train loss: 0.0660
+2024-01-12 16:54:22,851 - Epoch: 35, train loss: 0.0656
+2024-01-12 16:54:23,470 - Epoch: 36, train loss: 0.0634
+2024-01-12 16:54:24,090 - Epoch: 37, train loss: 0.0605
+2024-01-12 16:54:24,775 - Epoch: 38, train loss: 0.0629
+2024-01-12 16:54:25,455 - Epoch: 39, train loss: 0.0627
+2024-01-12 16:54:26,077 - Epoch: 40, train loss: 0.0617
+2024-01-12 16:54:26,697 - Epoch: 41, train loss: 0.0609
+2024-01-12 16:54:27,316 - Epoch: 42, train loss: 0.0609
+2024-01-12 16:54:27,934 - Epoch: 43, train loss: 0.0625
+2024-01-12 16:54:28,556 - Epoch: 44, train loss: 0.0597
+2024-01-12 16:54:29,219 - Epoch: 45, train loss: 0.0610
+2024-01-12 16:54:29,852 - Epoch: 46, train loss: 0.0613
+2024-01-12 16:54:30,478 - Epoch: 47, train loss: 0.0603
+2024-01-12 16:54:31,106 - Epoch: 48, train loss: 0.0612
+2024-01-12 16:54:31,732 - Epoch: 49, train loss: 0.0603
+2024-01-12 16:54:54,591 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 16:55:14,510 - Epoch: 0, train loss: 9.2621
+2024-01-12 16:55:15,135 - Epoch: 1, train loss: 0.1926
+2024-01-12 16:55:15,757 - Epoch: 2, train loss: 0.0921
+2024-01-12 16:55:16,380 - Epoch: 3, train loss: 0.0593
+2024-01-12 16:55:17,000 - Epoch: 4, train loss: 0.0542
+2024-01-12 16:55:17,620 - Epoch: 5, train loss: 0.0617
+2024-01-12 16:55:18,245 - Epoch: 6, train loss: 0.0618
+2024-01-12 16:55:18,867 - Epoch: 7, train loss: 0.0641
+2024-01-12 16:55:19,494 - Epoch: 8, train loss: 0.0613
+2024-01-12 16:55:20,171 - Epoch: 9, train loss: 0.0625
+2024-01-12 16:55:20,808 - Epoch: 10, train loss: 0.0694
+2024-01-12 16:55:21,439 - Epoch: 11, train loss: 0.0708
+2024-01-12 16:55:22,067 - Epoch: 12, train loss: 0.0727
+2024-01-12 16:55:22,716 - Epoch: 13, train loss: 0.0736
+2024-01-12 16:55:23,341 - Epoch: 14, train loss: 0.0728
+2024-01-12 16:55:23,974 - Epoch: 15, train loss: 0.0728
+2024-01-12 16:55:24,591 - Epoch: 16, train loss: 0.0693
+2024-01-12 16:55:25,210 - Epoch: 17, train loss: 0.0706
+2024-01-12 16:55:25,829 - Epoch: 18, train loss: 0.0724
+2024-01-12 16:55:26,491 - Epoch: 19, train loss: 0.0741
+2024-01-12 16:55:27,144 - Epoch: 20, train loss: 0.0725
+2024-01-12 16:55:27,771 - Epoch: 21, train loss: 0.0744
+2024-01-12 16:55:28,482 - Epoch: 22, train loss: 0.0738
+2024-01-12 16:55:29,120 - Epoch: 23, train loss: 0.0669
+2024-01-12 16:55:29,748 - Epoch: 24, train loss: 0.0696
+2024-01-12 16:55:30,369 - Epoch: 25, train loss: 0.0700
+2024-01-12 16:55:30,999 - Epoch: 26, train loss: 0.0696
+2024-01-12 16:55:31,623 - Epoch: 27, train loss: 0.0676
+2024-01-12 16:55:32,245 - Epoch: 28, train loss: 0.0668
+2024-01-12 16:55:32,868 - Epoch: 29, train loss: 0.0658
+2024-01-12 16:55:33,491 - Epoch: 30, train loss: 0.0703
+2024-01-12 16:55:34,113 - Epoch: 31, train loss: 0.0674
+2024-01-12 16:55:34,742 - Epoch: 32, train loss: 0.0659
+2024-01-12 16:55:35,395 - Epoch: 33, train loss: 0.0660
+2024-01-12 16:55:36,032 - Epoch: 34, train loss: 0.0660
+2024-01-12 16:55:36,683 - Epoch: 35, train loss: 0.0656
+2024-01-12 16:55:37,431 - Epoch: 36, train loss: 0.0634
+2024-01-12 16:55:38,213 - Epoch: 37, train loss: 0.0605
+2024-01-12 16:55:38,861 - Epoch: 38, train loss: 0.0629
+2024-01-12 16:55:39,529 - Epoch: 39, train loss: 0.0627
+2024-01-12 16:55:40,164 - Epoch: 40, train loss: 0.0617
+2024-01-12 16:55:40,797 - Epoch: 41, train loss: 0.0609
+2024-01-12 16:55:41,433 - Epoch: 42, train loss: 0.0609
+2024-01-12 16:55:42,081 - Epoch: 43, train loss: 0.0625
+2024-01-12 16:55:42,768 - Epoch: 44, train loss: 0.0597
+2024-01-12 16:55:43,385 - Epoch: 45, train loss: 0.0610
+2024-01-12 16:55:44,003 - Epoch: 46, train loss: 0.0613
+2024-01-12 16:55:44,621 - Epoch: 47, train loss: 0.0603
+2024-01-12 16:55:45,238 - Epoch: 48, train loss: 0.0612
+2024-01-12 16:55:45,854 - Epoch: 49, train loss: 0.0603
+2024-01-12 17:02:04,739 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	200	
+log_step: 	100	
+lr: 	0.001	
+2024-01-12 17:02:27,141 - Epoch: 0, train loss: 9.2621
+2024-01-12 17:02:27,878 - Epoch: 1, train loss: 0.1926
+2024-01-12 17:02:28,614 - Epoch: 2, train loss: 0.0921
+2024-01-12 17:02:29,350 - Epoch: 3, train loss: 0.0593
+2024-01-12 17:02:30,088 - Epoch: 4, train loss: 0.0542
+2024-01-12 17:02:30,823 - Epoch: 5, train loss: 0.0617
+2024-01-12 17:02:31,561 - Epoch: 6, train loss: 0.0618
+2024-01-12 17:02:32,295 - Epoch: 7, train loss: 0.0641
+2024-01-12 17:02:33,033 - Epoch: 8, train loss: 0.0613
+2024-01-12 17:02:33,769 - Epoch: 9, train loss: 0.0625
+2024-01-12 17:02:34,505 - Epoch: 10, train loss: 0.0694
+2024-01-12 17:02:35,244 - Epoch: 11, train loss: 0.0708
+2024-01-12 17:02:35,983 - Epoch: 12, train loss: 0.0727
+2024-01-12 17:02:36,718 - Epoch: 13, train loss: 0.0736
+2024-01-12 17:02:37,455 - Epoch: 14, train loss: 0.0728
+2024-01-12 17:02:38,192 - Epoch: 15, train loss: 0.0728
+2024-01-12 17:02:38,927 - Epoch: 16, train loss: 0.0693
+2024-01-12 17:02:39,664 - Epoch: 17, train loss: 0.0706
+2024-01-12 17:02:40,401 - Epoch: 18, train loss: 0.0724
+2024-01-12 17:02:41,137 - Epoch: 19, train loss: 0.0741
+2024-01-12 17:02:41,874 - Epoch: 20, train loss: 0.0725
+2024-01-12 17:02:42,608 - Epoch: 21, train loss: 0.0744
+2024-01-12 17:02:43,345 - Epoch: 22, train loss: 0.0738
+2024-01-12 17:02:44,081 - Epoch: 23, train loss: 0.0669
+2024-01-12 17:02:44,815 - Epoch: 24, train loss: 0.0696
+2024-01-12 17:02:45,552 - Epoch: 25, train loss: 0.0700
+2024-01-12 17:02:46,290 - Epoch: 26, train loss: 0.0696
+2024-01-12 17:02:47,025 - Epoch: 27, train loss: 0.0676
+2024-01-12 17:02:47,761 - Epoch: 28, train loss: 0.0668
+2024-01-12 17:02:48,497 - Epoch: 29, train loss: 0.0658
+2024-01-12 17:02:49,240 - Epoch: 30, train loss: 0.0703
+2024-01-12 17:02:49,975 - Epoch: 31, train loss: 0.0674
+2024-01-12 17:02:50,713 - Epoch: 32, train loss: 0.0659
+2024-01-12 17:02:51,452 - Epoch: 33, train loss: 0.0660
+2024-01-12 17:02:52,193 - Epoch: 34, train loss: 0.0660
+2024-01-12 17:02:52,928 - Epoch: 35, train loss: 0.0656
+2024-01-12 17:02:53,665 - Epoch: 36, train loss: 0.0634
+2024-01-12 17:02:54,400 - Epoch: 37, train loss: 0.0605
+2024-01-12 17:02:55,148 - Epoch: 38, train loss: 0.0629
+2024-01-12 17:02:55,889 - Epoch: 39, train loss: 0.0627
+2024-01-12 17:02:56,625 - Epoch: 40, train loss: 0.0617
+2024-01-12 17:02:57,360 - Epoch: 41, train loss: 0.0609
+2024-01-12 17:02:58,095 - Epoch: 42, train loss: 0.0609
+2024-01-12 17:02:58,833 - Epoch: 43, train loss: 0.0625
+2024-01-12 17:02:59,568 - Epoch: 44, train loss: 0.0597
+2024-01-12 17:03:00,304 - Epoch: 45, train loss: 0.0610
+2024-01-12 17:03:01,043 - Epoch: 46, train loss: 0.0613
+2024-01-12 17:03:01,776 - Epoch: 47, train loss: 0.0603
+2024-01-12 17:03:02,511 - Epoch: 48, train loss: 0.0612
+2024-01-12 17:03:03,270 - Epoch: 49, train loss: 0.0603
+2024-01-12 17:03:04,005 - Epoch: 50, train loss: 0.0594
+2024-01-12 17:03:04,741 - Epoch: 51, train loss: 0.0580
+2024-01-12 17:03:05,479 - Epoch: 52, train loss: 0.0561
+2024-01-12 17:03:06,214 - Epoch: 53, train loss: 0.0580
+2024-01-12 17:03:06,949 - Epoch: 54, train loss: 0.0581
+2024-01-12 17:03:07,685 - Epoch: 55, train loss: 0.0574
+2024-01-12 17:03:08,423 - Epoch: 56, train loss: 0.0584
+2024-01-12 17:03:09,158 - Epoch: 57, train loss: 0.0568
+2024-01-12 17:03:09,895 - Epoch: 58, train loss: 0.0562
+2024-01-12 17:03:10,630 - Epoch: 59, train loss: 0.0568
+2024-01-12 17:03:11,366 - Epoch: 60, train loss: 0.0565
+2024-01-12 17:03:12,107 - Epoch: 61, train loss: 0.0551
+2024-01-12 17:03:12,846 - Epoch: 62, train loss: 0.0569
+2024-01-12 17:03:13,582 - Epoch: 63, train loss: 0.0549
+2024-01-12 17:03:14,318 - Epoch: 64, train loss: 0.0563
+2024-01-12 17:03:15,054 - Epoch: 65, train loss: 0.0551
+2024-01-12 17:03:15,790 - Epoch: 66, train loss: 0.0552
+2024-01-12 17:03:16,528 - Epoch: 67, train loss: 0.0561
+2024-01-12 17:03:17,264 - Epoch: 68, train loss: 0.0551
+2024-01-12 17:03:17,998 - Epoch: 69, train loss: 0.0554
+2024-01-12 17:03:18,735 - Epoch: 70, train loss: 0.0541
+2024-01-12 17:03:19,474 - Epoch: 71, train loss: 0.0545
+2024-01-12 17:03:20,210 - Epoch: 72, train loss: 0.0543
+2024-01-12 17:03:20,943 - Epoch: 73, train loss: 0.0524
+2024-01-12 17:03:21,682 - Epoch: 74, train loss: 0.0520
+2024-01-12 17:03:22,415 - Epoch: 75, train loss: 0.0528
+2024-01-12 17:03:23,167 - Epoch: 76, train loss: 0.0534
+2024-01-12 17:03:23,858 - Epoch: 77, train loss: 0.0540
+2024-01-12 17:03:24,523 - Epoch: 78, train loss: 0.0521
+2024-01-12 17:03:25,142 - Epoch: 79, train loss: 0.0523
+2024-01-12 17:03:25,763 - Epoch: 80, train loss: 0.0527
+2024-01-12 17:03:26,385 - Epoch: 81, train loss: 0.0535
+2024-01-12 17:03:27,003 - Epoch: 82, train loss: 0.0526
+2024-01-12 17:03:27,624 - Epoch: 83, train loss: 0.0514
+2024-01-12 17:03:28,245 - Epoch: 84, train loss: 0.0524
+2024-01-12 17:03:28,865 - Epoch: 85, train loss: 0.0523
+2024-01-12 17:03:29,486 - Epoch: 86, train loss: 0.0520
+2024-01-12 17:03:30,108 - Epoch: 87, train loss: 0.0520
+2024-01-12 17:03:30,731 - Epoch: 88, train loss: 0.0520
+2024-01-12 17:03:31,354 - Epoch: 89, train loss: 0.0520
+2024-01-12 17:03:31,973 - Epoch: 90, train loss: 0.0522
+2024-01-12 17:03:32,593 - Epoch: 91, train loss: 0.0518
+2024-01-12 17:03:33,214 - Epoch: 92, train loss: 0.0526
+2024-01-12 17:03:33,837 - Epoch: 93, train loss: 0.0525
+2024-01-12 17:03:34,457 - Epoch: 94, train loss: 0.0504
+2024-01-12 17:03:35,077 - Epoch: 95, train loss: 0.0506
+2024-01-12 17:03:35,698 - Epoch: 96, train loss: 0.0509
+2024-01-12 17:03:36,320 - Epoch: 97, train loss: 0.0513
+2024-01-12 17:03:36,942 - Epoch: 98, train loss: 0.0509
+2024-01-12 17:03:37,562 - Epoch: 99, train loss: 0.0513
+2024-01-12 17:03:38,183 - Epoch: 100, train loss: 0.0508
+2024-01-12 17:03:38,804 - Epoch: 101, train loss: 0.0518
+2024-01-12 17:03:39,426 - Epoch: 102, train loss: 0.0511
+2024-01-12 17:03:40,047 - Epoch: 103, train loss: 0.0494
+2024-01-12 17:03:40,667 - Epoch: 104, train loss: 0.0512
+2024-01-12 17:03:41,287 - Epoch: 105, train loss: 0.0502
+2024-01-12 17:03:41,908 - Epoch: 106, train loss: 0.0514
+2024-01-12 17:03:42,529 - Epoch: 107, train loss: 0.0509
+2024-01-12 17:03:43,151 - Epoch: 108, train loss: 0.0498
+2024-01-12 17:03:43,772 - Epoch: 109, train loss: 0.0503
+2024-01-12 17:03:44,393 - Epoch: 110, train loss: 0.0496
+2024-01-12 17:03:45,014 - Epoch: 111, train loss: 0.0498
+2024-01-12 17:03:45,634 - Epoch: 112, train loss: 0.0501
+2024-01-12 17:03:46,255 - Epoch: 113, train loss: 0.0504
+2024-01-12 17:03:46,876 - Epoch: 114, train loss: 0.0508
+2024-01-12 17:03:47,499 - Epoch: 115, train loss: 0.0501
+2024-01-12 17:03:48,120 - Epoch: 116, train loss: 0.0491
+2024-01-12 17:03:48,743 - Epoch: 117, train loss: 0.0497
+2024-01-12 17:03:49,365 - Epoch: 118, train loss: 0.0492
+2024-01-12 17:03:49,986 - Epoch: 119, train loss: 0.0493
+2024-01-12 17:03:50,607 - Epoch: 120, train loss: 0.0495
+2024-01-12 17:03:51,236 - Epoch: 121, train loss: 0.0492
+2024-01-12 17:03:51,857 - Epoch: 122, train loss: 0.0493
+2024-01-12 17:03:52,479 - Epoch: 123, train loss: 0.0489
+2024-01-12 17:03:53,101 - Epoch: 124, train loss: 0.0488
+2024-01-12 17:03:53,723 - Epoch: 125, train loss: 0.0487
+2024-01-12 17:03:54,344 - Epoch: 126, train loss: 0.0493
+2024-01-12 17:03:54,968 - Epoch: 127, train loss: 0.0488
+2024-01-12 17:03:55,591 - Epoch: 128, train loss: 0.0488
+2024-01-12 17:03:56,212 - Epoch: 129, train loss: 0.0486
+2024-01-12 17:03:56,831 - Epoch: 130, train loss: 0.0489
+2024-01-12 17:03:57,452 - Epoch: 131, train loss: 0.0487
+2024-01-12 17:03:58,074 - Epoch: 132, train loss: 0.0482
+2024-01-12 17:03:58,694 - Epoch: 133, train loss: 0.0482
+2024-01-12 17:03:59,316 - Epoch: 134, train loss: 0.0479
+2024-01-12 17:03:59,936 - Epoch: 135, train loss: 0.0486
+2024-01-12 17:04:00,557 - Epoch: 136, train loss: 0.0482
+2024-01-12 17:04:01,179 - Epoch: 137, train loss: 0.0486
+2024-01-12 17:04:01,801 - Epoch: 138, train loss: 0.0485
+2024-01-12 17:04:02,421 - Epoch: 139, train loss: 0.0483
+2024-01-12 17:04:03,042 - Epoch: 140, train loss: 0.0480
+2024-01-12 17:04:03,665 - Epoch: 141, train loss: 0.0486
+2024-01-12 17:04:04,286 - Epoch: 142, train loss: 0.0485
+2024-01-12 17:04:04,907 - Epoch: 143, train loss: 0.0482
+2024-01-12 17:04:05,529 - Epoch: 144, train loss: 0.0491
+2024-01-12 17:04:06,165 - Epoch: 145, train loss: 0.0487
+2024-01-12 17:04:06,787 - Epoch: 146, train loss: 0.0482
+2024-01-12 17:04:07,408 - Epoch: 147, train loss: 0.0479
+2024-01-12 17:04:08,029 - Epoch: 148, train loss: 0.0481
+2024-01-12 17:04:08,652 - Epoch: 149, train loss: 0.0481
+2024-01-12 17:04:09,272 - Epoch: 150, train loss: 0.0480
+2024-01-12 17:04:09,893 - Epoch: 151, train loss: 0.0473
+2024-01-12 17:04:10,513 - Epoch: 152, train loss: 0.0479
+2024-01-12 17:04:11,134 - Epoch: 153, train loss: 0.0473
+2024-01-12 17:04:11,755 - Epoch: 154, train loss: 0.0477
+2024-01-12 17:04:12,375 - Epoch: 155, train loss: 0.0482
+2024-01-12 17:04:12,998 - Epoch: 156, train loss: 0.0478
+2024-01-12 17:04:13,623 - Epoch: 157, train loss: 0.0472
+2024-01-12 17:04:14,247 - Epoch: 158, train loss: 0.0470
+2024-01-12 17:04:14,866 - Epoch: 159, train loss: 0.0477
+2024-01-12 17:04:15,487 - Epoch: 160, train loss: 0.0478
+2024-01-12 17:04:16,107 - Epoch: 161, train loss: 0.0478
+2024-01-12 17:04:16,732 - Epoch: 162, train loss: 0.0472
+2024-01-12 17:04:17,353 - Epoch: 163, train loss: 0.0478
+2024-01-12 17:04:17,973 - Epoch: 164, train loss: 0.0471
+2024-01-12 17:04:18,594 - Epoch: 165, train loss: 0.0478
+2024-01-12 17:04:19,214 - Epoch: 166, train loss: 0.0472
+2024-01-12 17:04:19,835 - Epoch: 167, train loss: 0.0475
+2024-01-12 17:04:20,456 - Epoch: 168, train loss: 0.0471
+2024-01-12 17:04:21,076 - Epoch: 169, train loss: 0.0471
+2024-01-12 17:04:21,698 - Epoch: 170, train loss: 0.0473
+2024-01-12 17:04:22,321 - Epoch: 171, train loss: 0.0466
+2024-01-12 17:04:22,942 - Epoch: 172, train loss: 0.0470
+2024-01-12 17:04:23,565 - Epoch: 173, train loss: 0.0470
+2024-01-12 17:04:24,187 - Epoch: 174, train loss: 0.0464
+2024-01-12 17:04:24,809 - Epoch: 175, train loss: 0.0472
+2024-01-12 17:04:25,428 - Epoch: 176, train loss: 0.0467
+2024-01-12 17:04:26,053 - Epoch: 177, train loss: 0.0471
+2024-01-12 17:04:26,672 - Epoch: 178, train loss: 0.0466
+2024-01-12 17:04:27,294 - Epoch: 179, train loss: 0.0470
+2024-01-12 17:04:27,915 - Epoch: 180, train loss: 0.0470
+2024-01-12 17:04:28,538 - Epoch: 181, train loss: 0.0467
+2024-01-12 17:04:29,157 - Epoch: 182, train loss: 0.0469
+2024-01-12 17:04:29,778 - Epoch: 183, train loss: 0.0465
+2024-01-12 17:04:30,399 - Epoch: 184, train loss: 0.0469
+2024-01-12 17:04:31,019 - Epoch: 185, train loss: 0.0466
+2024-01-12 17:04:31,638 - Epoch: 186, train loss: 0.0466
+2024-01-12 17:04:32,256 - Epoch: 187, train loss: 0.0465
+2024-01-12 17:04:32,876 - Epoch: 188, train loss: 0.0467
+2024-01-12 17:04:33,500 - Epoch: 189, train loss: 0.0463
+2024-01-12 17:04:34,122 - Epoch: 190, train loss: 0.0466
+2024-01-12 17:04:34,743 - Epoch: 191, train loss: 0.0464
+2024-01-12 17:04:35,365 - Epoch: 192, train loss: 0.0465
+2024-01-12 17:04:35,985 - Epoch: 193, train loss: 0.0462
+2024-01-12 17:04:36,607 - Epoch: 194, train loss: 0.0467
+2024-01-12 17:04:37,229 - Epoch: 195, train loss: 0.0458
+2024-01-12 17:04:37,849 - Epoch: 196, train loss: 0.0465
+2024-01-12 17:04:38,473 - Epoch: 197, train loss: 0.0461
+2024-01-12 17:04:39,093 - Epoch: 198, train loss: 0.0466
+2024-01-12 17:04:39,714 - Epoch: 199, train loss: 0.0459
+2024-01-12 17:14:24,823 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm002_addVal	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	64	
+train_file_path: 	./data/all_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	500	
+log_step: 	100	
+lr: 	0.001	
+2024-01-12 17:14:45,659 - Epoch: 0, train loss: 9.2621
+2024-01-12 17:14:46,278 - Epoch: 1, train loss: 0.1926
+2024-01-12 17:14:46,898 - Epoch: 2, train loss: 0.0921
+2024-01-12 17:14:47,519 - Epoch: 3, train loss: 0.0593
+2024-01-12 17:14:48,141 - Epoch: 4, train loss: 0.0542
+2024-01-12 17:14:48,759 - Epoch: 5, train loss: 0.0617
+2024-01-12 17:14:49,382 - Epoch: 6, train loss: 0.0618
+2024-01-12 17:14:50,000 - Epoch: 7, train loss: 0.0641
+2024-01-12 17:14:50,622 - Epoch: 8, train loss: 0.0613
+2024-01-12 17:14:51,241 - Epoch: 9, train loss: 0.0625
+2024-01-12 17:14:51,862 - Epoch: 10, train loss: 0.0694
+2024-01-12 17:14:52,482 - Epoch: 11, train loss: 0.0708
+2024-01-12 17:14:53,101 - Epoch: 12, train loss: 0.0727
+2024-01-12 17:14:53,722 - Epoch: 13, train loss: 0.0736
+2024-01-12 17:14:54,343 - Epoch: 14, train loss: 0.0728
+2024-01-12 17:14:54,961 - Epoch: 15, train loss: 0.0728
+2024-01-12 17:14:55,582 - Epoch: 16, train loss: 0.0693
+2024-01-12 17:14:56,203 - Epoch: 17, train loss: 0.0706
+2024-01-12 17:14:56,824 - Epoch: 18, train loss: 0.0724
+2024-01-12 17:14:57,446 - Epoch: 19, train loss: 0.0741
+2024-01-12 17:14:58,073 - Epoch: 20, train loss: 0.0725
+2024-01-12 17:14:58,691 - Epoch: 21, train loss: 0.0744
+2024-01-12 17:14:59,310 - Epoch: 22, train loss: 0.0738
+2024-01-12 17:14:59,931 - Epoch: 23, train loss: 0.0669
+2024-01-12 17:15:00,549 - Epoch: 24, train loss: 0.0696
+2024-01-12 17:15:01,169 - Epoch: 25, train loss: 0.0700
+2024-01-12 17:15:01,787 - Epoch: 26, train loss: 0.0696
+2024-01-12 17:15:02,408 - Epoch: 27, train loss: 0.0676
+2024-01-12 17:15:03,028 - Epoch: 28, train loss: 0.0668
+2024-01-12 17:15:03,645 - Epoch: 29, train loss: 0.0658
+2024-01-12 17:15:04,264 - Epoch: 30, train loss: 0.0703
+2024-01-12 17:15:04,885 - Epoch: 31, train loss: 0.0674
+2024-01-12 17:15:05,506 - Epoch: 32, train loss: 0.0659
+2024-01-12 17:15:06,126 - Epoch: 33, train loss: 0.0660
+2024-01-12 17:15:06,745 - Epoch: 34, train loss: 0.0660
+2024-01-12 17:15:07,367 - Epoch: 35, train loss: 0.0656
+2024-01-12 17:15:07,986 - Epoch: 36, train loss: 0.0634
+2024-01-12 17:15:08,606 - Epoch: 37, train loss: 0.0605
+2024-01-12 17:15:09,228 - Epoch: 38, train loss: 0.0629
+2024-01-12 17:15:09,849 - Epoch: 39, train loss: 0.0627
+2024-01-12 17:15:10,471 - Epoch: 40, train loss: 0.0617
+2024-01-12 17:15:11,092 - Epoch: 41, train loss: 0.0609
+2024-01-12 17:15:11,713 - Epoch: 42, train loss: 0.0609
+2024-01-12 17:15:12,333 - Epoch: 43, train loss: 0.0625
+2024-01-12 17:15:12,954 - Epoch: 44, train loss: 0.0597
+2024-01-12 17:15:13,576 - Epoch: 45, train loss: 0.0610
+2024-01-12 17:15:14,199 - Epoch: 46, train loss: 0.0613
+2024-01-12 17:15:14,818 - Epoch: 47, train loss: 0.0603
+2024-01-12 17:15:15,440 - Epoch: 48, train loss: 0.0612
+2024-01-12 17:15:16,060 - Epoch: 49, train loss: 0.0603
+2024-01-12 17:15:16,681 - Epoch: 50, train loss: 0.0594
+2024-01-12 17:15:17,300 - Epoch: 51, train loss: 0.0580
+2024-01-12 17:15:17,923 - Epoch: 52, train loss: 0.0561
+2024-01-12 17:15:18,544 - Epoch: 53, train loss: 0.0580
+2024-01-12 17:15:19,165 - Epoch: 54, train loss: 0.0581
+2024-01-12 17:15:19,789 - Epoch: 55, train loss: 0.0574
+2024-01-12 17:15:20,414 - Epoch: 56, train loss: 0.0584
+2024-01-12 17:15:21,036 - Epoch: 57, train loss: 0.0568
+2024-01-12 17:15:21,655 - Epoch: 58, train loss: 0.0562
+2024-01-12 17:15:22,277 - Epoch: 59, train loss: 0.0568
+2024-01-12 17:15:22,899 - Epoch: 60, train loss: 0.0565
+2024-01-12 17:15:23,521 - Epoch: 61, train loss: 0.0551
+2024-01-12 17:15:24,141 - Epoch: 62, train loss: 0.0569
+2024-01-12 17:15:24,761 - Epoch: 63, train loss: 0.0549
+2024-01-12 17:15:25,383 - Epoch: 64, train loss: 0.0563
+2024-01-12 17:15:26,004 - Epoch: 65, train loss: 0.0551
+2024-01-12 17:15:26,626 - Epoch: 66, train loss: 0.0552
+2024-01-12 17:15:27,245 - Epoch: 67, train loss: 0.0561
+2024-01-12 17:15:27,867 - Epoch: 68, train loss: 0.0551
+2024-01-12 17:15:28,490 - Epoch: 69, train loss: 0.0554
+2024-01-12 17:15:29,113 - Epoch: 70, train loss: 0.0541
+2024-01-12 17:15:29,733 - Epoch: 71, train loss: 0.0545
+2024-01-12 17:15:30,355 - Epoch: 72, train loss: 0.0543
+2024-01-12 17:15:30,974 - Epoch: 73, train loss: 0.0524
+2024-01-12 17:15:31,599 - Epoch: 74, train loss: 0.0520
+2024-01-12 17:15:32,220 - Epoch: 75, train loss: 0.0528
+2024-01-12 17:15:32,843 - Epoch: 76, train loss: 0.0534
+2024-01-12 17:15:33,469 - Epoch: 77, train loss: 0.0540
+2024-01-12 17:15:34,090 - Epoch: 78, train loss: 0.0521
+2024-01-12 17:15:34,712 - Epoch: 79, train loss: 0.0523
+2024-01-12 17:15:35,334 - Epoch: 80, train loss: 0.0527
+2024-01-12 17:15:35,955 - Epoch: 81, train loss: 0.0535
+2024-01-12 17:15:36,575 - Epoch: 82, train loss: 0.0526
+2024-01-12 17:15:37,198 - Epoch: 83, train loss: 0.0514
+2024-01-12 17:15:37,816 - Epoch: 84, train loss: 0.0524
+2024-01-12 17:15:38,438 - Epoch: 85, train loss: 0.0523
+2024-01-12 17:15:39,060 - Epoch: 86, train loss: 0.0520
+2024-01-12 17:15:39,680 - Epoch: 87, train loss: 0.0520
+2024-01-12 17:15:40,300 - Epoch: 88, train loss: 0.0520
+2024-01-12 17:15:40,920 - Epoch: 89, train loss: 0.0520
+2024-01-12 17:15:41,542 - Epoch: 90, train loss: 0.0522
+2024-01-12 17:15:42,163 - Epoch: 91, train loss: 0.0518
+2024-01-12 17:15:42,782 - Epoch: 92, train loss: 0.0526
+2024-01-12 17:15:43,404 - Epoch: 93, train loss: 0.0525
+2024-01-12 17:15:44,026 - Epoch: 94, train loss: 0.0504
+2024-01-12 17:15:44,648 - Epoch: 95, train loss: 0.0506
+2024-01-12 17:15:45,269 - Epoch: 96, train loss: 0.0509
+2024-01-12 17:15:45,889 - Epoch: 97, train loss: 0.0513
+2024-01-12 17:15:46,511 - Epoch: 98, train loss: 0.0509
+2024-01-12 17:15:47,135 - Epoch: 99, train loss: 0.0513
+2024-01-12 17:15:47,757 - Epoch: 100, train loss: 0.0508
+2024-01-12 17:15:48,378 - Epoch: 101, train loss: 0.0518
+2024-01-12 17:15:48,999 - Epoch: 102, train loss: 0.0511
+2024-01-12 17:15:49,622 - Epoch: 103, train loss: 0.0494
+2024-01-12 17:15:50,241 - Epoch: 104, train loss: 0.0512
+2024-01-12 17:15:50,862 - Epoch: 105, train loss: 0.0502
+2024-01-12 17:15:51,485 - Epoch: 106, train loss: 0.0514
+2024-01-12 17:15:52,110 - Epoch: 107, train loss: 0.0509
+2024-01-12 17:15:52,731 - Epoch: 108, train loss: 0.0498
+2024-01-12 17:15:53,352 - Epoch: 109, train loss: 0.0503
+2024-01-12 17:15:53,974 - Epoch: 110, train loss: 0.0496
+2024-01-12 17:15:54,596 - Epoch: 111, train loss: 0.0498
+2024-01-12 17:15:55,218 - Epoch: 112, train loss: 0.0501
+2024-01-12 17:15:55,839 - Epoch: 113, train loss: 0.0504
+2024-01-12 17:15:56,460 - Epoch: 114, train loss: 0.0508
+2024-01-12 17:15:57,083 - Epoch: 115, train loss: 0.0501
+2024-01-12 17:15:57,704 - Epoch: 116, train loss: 0.0491
+2024-01-12 17:15:58,324 - Epoch: 117, train loss: 0.0497
+2024-01-12 17:15:58,946 - Epoch: 118, train loss: 0.0492
+2024-01-12 17:15:59,570 - Epoch: 119, train loss: 0.0493
+2024-01-12 17:16:00,192 - Epoch: 120, train loss: 0.0495
+2024-01-12 17:16:00,813 - Epoch: 121, train loss: 0.0492
+2024-01-12 17:16:01,435 - Epoch: 122, train loss: 0.0493
+2024-01-12 17:16:02,057 - Epoch: 123, train loss: 0.0489
+2024-01-12 17:16:02,679 - Epoch: 124, train loss: 0.0488
+2024-01-12 17:16:03,300 - Epoch: 125, train loss: 0.0487
+2024-01-12 17:16:03,919 - Epoch: 126, train loss: 0.0493
+2024-01-12 17:16:04,539 - Epoch: 127, train loss: 0.0488
+2024-01-12 17:16:05,162 - Epoch: 128, train loss: 0.0488
+2024-01-12 17:16:05,783 - Epoch: 129, train loss: 0.0486
+2024-01-12 17:16:06,404 - Epoch: 130, train loss: 0.0489
+2024-01-12 17:16:07,025 - Epoch: 131, train loss: 0.0487
+2024-01-12 17:16:07,649 - Epoch: 132, train loss: 0.0482
+2024-01-12 17:16:08,273 - Epoch: 133, train loss: 0.0482
+2024-01-12 17:16:08,894 - Epoch: 134, train loss: 0.0479
+2024-01-12 17:16:09,516 - Epoch: 135, train loss: 0.0486
+2024-01-12 17:16:10,137 - Epoch: 136, train loss: 0.0482
+2024-01-12 17:16:10,759 - Epoch: 137, train loss: 0.0486
+2024-01-12 17:16:11,381 - Epoch: 138, train loss: 0.0485
+2024-01-12 17:16:12,001 - Epoch: 139, train loss: 0.0483
+2024-01-12 17:16:12,624 - Epoch: 140, train loss: 0.0480
+2024-01-12 17:16:13,247 - Epoch: 141, train loss: 0.0486
+2024-01-12 17:16:13,877 - Epoch: 142, train loss: 0.0485
+2024-01-12 17:16:14,501 - Epoch: 143, train loss: 0.0482
+2024-01-12 17:16:15,126 - Epoch: 144, train loss: 0.0491
+2024-01-12 17:16:15,748 - Epoch: 145, train loss: 0.0487
+2024-01-12 17:16:16,371 - Epoch: 146, train loss: 0.0482
+2024-01-12 17:16:16,994 - Epoch: 147, train loss: 0.0479
+2024-01-12 17:16:17,617 - Epoch: 148, train loss: 0.0481
+2024-01-12 17:16:18,239 - Epoch: 149, train loss: 0.0481
+2024-01-12 17:16:18,864 - Epoch: 150, train loss: 0.0480
+2024-01-12 17:16:19,486 - Epoch: 151, train loss: 0.0473
+2024-01-12 17:16:20,106 - Epoch: 152, train loss: 0.0479
+2024-01-12 17:16:20,730 - Epoch: 153, train loss: 0.0473
+2024-01-12 17:16:21,350 - Epoch: 154, train loss: 0.0477
+2024-01-12 17:16:21,972 - Epoch: 155, train loss: 0.0482
+2024-01-12 17:16:22,596 - Epoch: 156, train loss: 0.0478
+2024-01-12 17:16:23,217 - Epoch: 157, train loss: 0.0472
+2024-01-12 17:16:23,839 - Epoch: 158, train loss: 0.0470
+2024-01-12 17:16:24,461 - Epoch: 159, train loss: 0.0477
+2024-01-12 17:16:25,083 - Epoch: 160, train loss: 0.0478
+2024-01-12 17:16:25,706 - Epoch: 161, train loss: 0.0478
+2024-01-12 17:16:26,329 - Epoch: 162, train loss: 0.0472
+2024-01-12 17:16:26,949 - Epoch: 163, train loss: 0.0478
+2024-01-12 17:16:27,573 - Epoch: 164, train loss: 0.0471
+2024-01-12 17:16:28,195 - Epoch: 165, train loss: 0.0478
+2024-01-12 17:16:28,819 - Epoch: 166, train loss: 0.0472
+2024-01-12 17:16:29,440 - Epoch: 167, train loss: 0.0475
+2024-01-12 17:16:30,063 - Epoch: 168, train loss: 0.0471
+2024-01-12 17:16:30,686 - Epoch: 169, train loss: 0.0471
+2024-01-12 17:16:31,309 - Epoch: 170, train loss: 0.0473
+2024-01-12 17:16:31,930 - Epoch: 171, train loss: 0.0466
+2024-01-12 17:16:32,553 - Epoch: 172, train loss: 0.0470
+2024-01-12 17:16:33,175 - Epoch: 173, train loss: 0.0470
+2024-01-12 17:16:33,799 - Epoch: 174, train loss: 0.0464
+2024-01-12 17:16:34,421 - Epoch: 175, train loss: 0.0472
+2024-01-12 17:16:35,044 - Epoch: 176, train loss: 0.0467
+2024-01-12 17:16:35,668 - Epoch: 177, train loss: 0.0471
+2024-01-12 17:16:36,292 - Epoch: 178, train loss: 0.0466
+2024-01-12 17:16:36,916 - Epoch: 179, train loss: 0.0470
+2024-01-12 17:16:37,540 - Epoch: 180, train loss: 0.0470
+2024-01-12 17:16:38,162 - Epoch: 181, train loss: 0.0467
+2024-01-12 17:16:38,785 - Epoch: 182, train loss: 0.0469
+2024-01-12 17:16:39,407 - Epoch: 183, train loss: 0.0465
+2024-01-12 17:16:40,028 - Epoch: 184, train loss: 0.0469
+2024-01-12 17:16:40,650 - Epoch: 185, train loss: 0.0466
+2024-01-12 17:16:41,274 - Epoch: 186, train loss: 0.0466
+2024-01-12 17:16:41,896 - Epoch: 187, train loss: 0.0465
+2024-01-12 17:16:42,529 - Epoch: 188, train loss: 0.0467
+2024-01-12 17:16:43,153 - Epoch: 189, train loss: 0.0463
+2024-01-12 17:16:43,774 - Epoch: 190, train loss: 0.0466
+2024-01-12 17:16:44,398 - Epoch: 191, train loss: 0.0464
+2024-01-12 17:16:45,021 - Epoch: 192, train loss: 0.0465
+2024-01-12 17:16:45,643 - Epoch: 193, train loss: 0.0462
+2024-01-12 17:16:46,269 - Epoch: 194, train loss: 0.0467
+2024-01-12 17:16:46,892 - Epoch: 195, train loss: 0.0458
+2024-01-12 17:16:47,514 - Epoch: 196, train loss: 0.0465
+2024-01-12 17:16:48,134 - Epoch: 197, train loss: 0.0461
+2024-01-12 17:16:48,757 - Epoch: 198, train loss: 0.0466
+2024-01-12 17:16:49,380 - Epoch: 199, train loss: 0.0459
+2024-01-12 17:16:50,002 - Epoch: 200, train loss: 0.0463
+2024-01-12 17:16:50,624 - Epoch: 201, train loss: 0.0463
+2024-01-12 17:16:51,247 - Epoch: 202, train loss: 0.0465
+2024-01-12 17:16:51,882 - Epoch: 203, train loss: 0.0466
+2024-01-12 17:16:52,506 - Epoch: 204, train loss: 0.0461
+2024-01-12 17:16:53,128 - Epoch: 205, train loss: 0.0459
+2024-01-12 17:16:53,750 - Epoch: 206, train loss: 0.0461
+2024-01-12 17:16:54,372 - Epoch: 207, train loss: 0.0460
+2024-01-12 17:16:54,996 - Epoch: 208, train loss: 0.0453
+2024-01-12 17:16:55,619 - Epoch: 209, train loss: 0.0459
+2024-01-12 17:16:56,242 - Epoch: 210, train loss: 0.0459
+2024-01-12 17:16:56,866 - Epoch: 211, train loss: 0.0458
+2024-01-12 17:16:57,489 - Epoch: 212, train loss: 0.0458
+2024-01-12 17:16:58,112 - Epoch: 213, train loss: 0.0459
+2024-01-12 17:16:58,735 - Epoch: 214, train loss: 0.0458
+2024-01-12 17:16:59,359 - Epoch: 215, train loss: 0.0451
+2024-01-12 17:16:59,983 - Epoch: 216, train loss: 0.0457
+2024-01-12 17:17:00,606 - Epoch: 217, train loss: 0.0457
+2024-01-12 17:17:01,229 - Epoch: 218, train loss: 0.0460
+2024-01-12 17:17:01,853 - Epoch: 219, train loss: 0.0456
+2024-01-12 17:17:02,476 - Epoch: 220, train loss: 0.0457
+2024-01-12 17:17:03,100 - Epoch: 221, train loss: 0.0456
+2024-01-12 17:17:03,721 - Epoch: 222, train loss: 0.0457
+2024-01-12 17:17:04,344 - Epoch: 223, train loss: 0.0453
+2024-01-12 17:17:04,967 - Epoch: 224, train loss: 0.0452
+2024-01-12 17:17:05,591 - Epoch: 225, train loss: 0.0453
+2024-01-12 17:17:06,214 - Epoch: 226, train loss: 0.0454
+2024-01-12 17:17:06,838 - Epoch: 227, train loss: 0.0455
+2024-01-12 17:17:07,461 - Epoch: 228, train loss: 0.0451
+2024-01-12 17:17:08,086 - Epoch: 229, train loss: 0.0455
+2024-01-12 17:17:08,711 - Epoch: 230, train loss: 0.0453
+2024-01-12 17:17:09,333 - Epoch: 231, train loss: 0.0453
+2024-01-12 17:17:09,956 - Epoch: 232, train loss: 0.0454
+2024-01-12 17:17:10,578 - Epoch: 233, train loss: 0.0452
+2024-01-12 17:17:11,203 - Epoch: 234, train loss: 0.0451
+2024-01-12 17:17:11,824 - Epoch: 235, train loss: 0.0449
+2024-01-12 17:17:12,447 - Epoch: 236, train loss: 0.0450
+2024-01-12 17:17:13,073 - Epoch: 237, train loss: 0.0452
+2024-01-12 17:17:13,696 - Epoch: 238, train loss: 0.0451
+2024-01-12 17:17:14,318 - Epoch: 239, train loss: 0.0453
+2024-01-12 17:17:14,941 - Epoch: 240, train loss: 0.0452
+2024-01-12 17:17:15,561 - Epoch: 241, train loss: 0.0451
+2024-01-12 17:17:16,186 - Epoch: 242, train loss: 0.0456
+2024-01-12 17:17:16,809 - Epoch: 243, train loss: 0.0453
+2024-01-12 17:17:17,433 - Epoch: 244, train loss: 0.0451
+2024-01-12 17:17:18,055 - Epoch: 245, train loss: 0.0452
+2024-01-12 17:17:18,678 - Epoch: 246, train loss: 0.0451
+2024-01-12 17:17:19,300 - Epoch: 247, train loss: 0.0447
+2024-01-12 17:17:19,921 - Epoch: 248, train loss: 0.0450
+2024-01-12 17:17:20,543 - Epoch: 249, train loss: 0.0448
+2024-01-12 17:17:21,166 - Epoch: 250, train loss: 0.0451
+2024-01-12 17:17:21,788 - Epoch: 251, train loss: 0.0450
+2024-01-12 17:17:22,411 - Epoch: 252, train loss: 0.0451
+2024-01-12 17:17:23,033 - Epoch: 253, train loss: 0.0447
+2024-01-12 17:17:23,656 - Epoch: 254, train loss: 0.0446
+2024-01-12 17:17:24,279 - Epoch: 255, train loss: 0.0446
+2024-01-12 17:17:24,900 - Epoch: 256, train loss: 0.0449
+2024-01-12 17:17:25,525 - Epoch: 257, train loss: 0.0449
+2024-01-12 17:17:26,148 - Epoch: 258, train loss: 0.0444
+2024-01-12 17:17:26,771 - Epoch: 259, train loss: 0.0449
+2024-01-12 17:17:27,394 - Epoch: 260, train loss: 0.0446
+2024-01-12 17:17:28,018 - Epoch: 261, train loss: 0.0445
+2024-01-12 17:17:28,641 - Epoch: 262, train loss: 0.0445
+2024-01-12 17:17:29,263 - Epoch: 263, train loss: 0.0446
+2024-01-12 17:17:29,885 - Epoch: 264, train loss: 0.0449
+2024-01-12 17:17:30,510 - Epoch: 265, train loss: 0.0447
+2024-01-12 17:17:31,135 - Epoch: 266, train loss: 0.0448
+2024-01-12 17:17:31,758 - Epoch: 267, train loss: 0.0446
+2024-01-12 17:17:32,380 - Epoch: 268, train loss: 0.0446
+2024-01-12 17:17:33,003 - Epoch: 269, train loss: 0.0446
+2024-01-12 17:17:33,627 - Epoch: 270, train loss: 0.0443
+2024-01-12 17:17:34,250 - Epoch: 271, train loss: 0.0445
+2024-01-12 17:17:34,871 - Epoch: 272, train loss: 0.0443
+2024-01-12 17:17:35,493 - Epoch: 273, train loss: 0.0444
+2024-01-12 17:17:36,116 - Epoch: 274, train loss: 0.0448
+2024-01-12 17:17:36,739 - Epoch: 275, train loss: 0.0444
+2024-01-12 17:17:37,358 - Epoch: 276, train loss: 0.0444
+2024-01-12 17:17:37,978 - Epoch: 277, train loss: 0.0448
+2024-01-12 17:17:38,602 - Epoch: 278, train loss: 0.0445
+2024-01-12 17:17:39,223 - Epoch: 279, train loss: 0.0442
+2024-01-12 17:17:39,843 - Epoch: 280, train loss: 0.0443
+2024-01-12 17:17:40,467 - Epoch: 281, train loss: 0.0443
+2024-01-12 17:17:41,090 - Epoch: 282, train loss: 0.0440
+2024-01-12 17:17:41,711 - Epoch: 283, train loss: 0.0444
+2024-01-12 17:17:42,333 - Epoch: 284, train loss: 0.0443
+2024-01-12 17:17:42,954 - Epoch: 285, train loss: 0.0443
+2024-01-12 17:17:43,580 - Epoch: 286, train loss: 0.0442
+2024-01-12 17:17:44,205 - Epoch: 287, train loss: 0.0443
+2024-01-12 17:17:44,828 - Epoch: 288, train loss: 0.0442
+2024-01-12 17:17:45,451 - Epoch: 289, train loss: 0.0442
+2024-01-12 17:17:46,075 - Epoch: 290, train loss: 0.0440
+2024-01-12 17:17:46,695 - Epoch: 291, train loss: 0.0441
+2024-01-12 17:17:47,319 - Epoch: 292, train loss: 0.0439
+2024-01-12 17:17:47,941 - Epoch: 293, train loss: 0.0443
+2024-01-12 17:17:48,565 - Epoch: 294, train loss: 0.0439
+2024-01-12 17:17:49,190 - Epoch: 295, train loss: 0.0437
+2024-01-12 17:17:49,811 - Epoch: 296, train loss: 0.0442
+2024-01-12 17:17:50,435 - Epoch: 297, train loss: 0.0442
+2024-01-12 17:17:51,060 - Epoch: 298, train loss: 0.0440
+2024-01-12 17:17:51,683 - Epoch: 299, train loss: 0.0437
+2024-01-12 17:17:52,305 - Epoch: 300, train loss: 0.0439
+2024-01-12 17:17:52,928 - Epoch: 301, train loss: 0.0437
+2024-01-12 17:17:53,551 - Epoch: 302, train loss: 0.0441
+2024-01-12 17:17:54,172 - Epoch: 303, train loss: 0.0435
+2024-01-12 17:17:54,795 - Epoch: 304, train loss: 0.0439
+2024-01-12 17:17:55,417 - Epoch: 305, train loss: 0.0440
+2024-01-12 17:17:56,041 - Epoch: 306, train loss: 0.0438
+2024-01-12 17:17:56,663 - Epoch: 307, train loss: 0.0440
+2024-01-12 17:17:57,285 - Epoch: 308, train loss: 0.0436
+2024-01-12 17:17:57,908 - Epoch: 309, train loss: 0.0439
+2024-01-12 17:17:58,532 - Epoch: 310, train loss: 0.0437
+2024-01-12 17:17:59,156 - Epoch: 311, train loss: 0.0437
+2024-01-12 17:17:59,780 - Epoch: 312, train loss: 0.0438
+2024-01-12 17:18:00,402 - Epoch: 313, train loss: 0.0435
+2024-01-12 17:18:01,024 - Epoch: 314, train loss: 0.0436
+2024-01-12 17:18:01,647 - Epoch: 315, train loss: 0.0437
+2024-01-12 17:18:02,270 - Epoch: 316, train loss: 0.0436
+2024-01-12 17:18:02,892 - Epoch: 317, train loss: 0.0435
+2024-01-12 17:18:03,517 - Epoch: 318, train loss: 0.0434
+2024-01-12 17:18:04,140 - Epoch: 319, train loss: 0.0434
+2024-01-12 17:18:04,762 - Epoch: 320, train loss: 0.0438
+2024-01-12 17:18:05,386 - Epoch: 321, train loss: 0.0436
+2024-01-12 17:18:06,010 - Epoch: 322, train loss: 0.0432
+2024-01-12 17:18:06,634 - Epoch: 323, train loss: 0.0437
+2024-01-12 17:18:07,258 - Epoch: 324, train loss: 0.0435
+2024-01-12 17:18:07,878 - Epoch: 325, train loss: 0.0436
+2024-01-12 17:18:08,501 - Epoch: 326, train loss: 0.0435
+2024-01-12 17:18:09,123 - Epoch: 327, train loss: 0.0434
+2024-01-12 17:18:09,745 - Epoch: 328, train loss: 0.0435
+2024-01-12 17:18:10,368 - Epoch: 329, train loss: 0.0437
+2024-01-12 17:18:10,991 - Epoch: 330, train loss: 0.0435
+2024-01-12 17:18:11,616 - Epoch: 331, train loss: 0.0431
+2024-01-12 17:18:12,237 - Epoch: 332, train loss: 0.0434
+2024-01-12 17:18:12,859 - Epoch: 333, train loss: 0.0434
+2024-01-12 17:18:13,480 - Epoch: 334, train loss: 0.0433
+2024-01-12 17:18:14,108 - Epoch: 335, train loss: 0.0433
+2024-01-12 17:18:14,731 - Epoch: 336, train loss: 0.0432
+2024-01-12 17:18:15,354 - Epoch: 337, train loss: 0.0432
+2024-01-12 17:18:15,977 - Epoch: 338, train loss: 0.0430
+2024-01-12 17:18:16,601 - Epoch: 339, train loss: 0.0432
+2024-01-12 17:18:17,228 - Epoch: 340, train loss: 0.0433
+2024-01-12 17:18:17,849 - Epoch: 341, train loss: 0.0435
+2024-01-12 17:18:18,472 - Epoch: 342, train loss: 0.0433
+2024-01-12 17:18:19,094 - Epoch: 343, train loss: 0.0434
+2024-01-12 17:18:19,724 - Epoch: 344, train loss: 0.0433
+2024-01-12 17:18:20,347 - Epoch: 345, train loss: 0.0431
+2024-01-12 17:18:20,970 - Epoch: 346, train loss: 0.0431
+2024-01-12 17:18:21,594 - Epoch: 347, train loss: 0.0428
+2024-01-12 17:18:22,219 - Epoch: 348, train loss: 0.0431
+2024-01-12 17:18:22,841 - Epoch: 349, train loss: 0.0429
+2024-01-12 17:18:23,464 - Epoch: 350, train loss: 0.0431
+2024-01-12 17:18:24,085 - Epoch: 351, train loss: 0.0431
+2024-01-12 17:18:24,709 - Epoch: 352, train loss: 0.0430
+2024-01-12 17:18:25,332 - Epoch: 353, train loss: 0.0433
+2024-01-12 17:18:25,954 - Epoch: 354, train loss: 0.0429
+2024-01-12 17:18:26,576 - Epoch: 355, train loss: 0.0430
+2024-01-12 17:18:27,200 - Epoch: 356, train loss: 0.0430
+2024-01-12 17:18:27,823 - Epoch: 357, train loss: 0.0427
+2024-01-12 17:18:28,452 - Epoch: 358, train loss: 0.0428
+2024-01-12 17:18:29,074 - Epoch: 359, train loss: 0.0428
+2024-01-12 17:18:29,697 - Epoch: 360, train loss: 0.0430
+2024-01-12 17:18:30,320 - Epoch: 361, train loss: 0.0428
+2024-01-12 17:18:30,942 - Epoch: 362, train loss: 0.0430
+2024-01-12 17:18:31,564 - Epoch: 363, train loss: 0.0428
+2024-01-12 17:18:32,189 - Epoch: 364, train loss: 0.0429
+2024-01-12 17:18:32,810 - Epoch: 365, train loss: 0.0428
+2024-01-12 17:18:33,434 - Epoch: 366, train loss: 0.0428
+2024-01-12 17:18:34,057 - Epoch: 367, train loss: 0.0428
+2024-01-12 17:18:34,678 - Epoch: 368, train loss: 0.0428
+2024-01-12 17:18:35,301 - Epoch: 369, train loss: 0.0428
+2024-01-12 17:18:35,925 - Epoch: 370, train loss: 0.0427
+2024-01-12 17:18:36,546 - Epoch: 371, train loss: 0.0426
+2024-01-12 17:18:37,170 - Epoch: 372, train loss: 0.0429
+2024-01-12 17:18:37,791 - Epoch: 373, train loss: 0.0426
+2024-01-12 17:18:38,416 - Epoch: 374, train loss: 0.0428
+2024-01-12 17:18:39,036 - Epoch: 375, train loss: 0.0426
+2024-01-12 17:18:39,658 - Epoch: 376, train loss: 0.0428
+2024-01-12 17:18:40,281 - Epoch: 377, train loss: 0.0427
+2024-01-12 17:18:40,905 - Epoch: 378, train loss: 0.0427
+2024-01-12 17:18:41,529 - Epoch: 379, train loss: 0.0425
+2024-01-12 17:18:42,153 - Epoch: 380, train loss: 0.0426
+2024-01-12 17:18:42,778 - Epoch: 381, train loss: 0.0424
+2024-01-12 17:18:43,402 - Epoch: 382, train loss: 0.0428
+2024-01-12 17:18:44,026 - Epoch: 383, train loss: 0.0424
+2024-01-12 17:18:44,648 - Epoch: 384, train loss: 0.0425
+2024-01-12 17:18:45,271 - Epoch: 385, train loss: 0.0426
+2024-01-12 17:18:45,891 - Epoch: 386, train loss: 0.0424
+2024-01-12 17:18:46,514 - Epoch: 387, train loss: 0.0424
+2024-01-12 17:18:47,138 - Epoch: 388, train loss: 0.0424
+2024-01-12 17:18:47,761 - Epoch: 389, train loss: 0.0427
+2024-01-12 17:18:48,383 - Epoch: 390, train loss: 0.0424
+2024-01-12 17:18:49,004 - Epoch: 391, train loss: 0.0425
+2024-01-12 17:18:49,629 - Epoch: 392, train loss: 0.0426
+2024-01-12 17:18:50,254 - Epoch: 393, train loss: 0.0424
+2024-01-12 17:18:50,877 - Epoch: 394, train loss: 0.0424
+2024-01-12 17:18:51,503 - Epoch: 395, train loss: 0.0426
+2024-01-12 17:18:52,124 - Epoch: 396, train loss: 0.0423
+2024-01-12 17:18:52,746 - Epoch: 397, train loss: 0.0426
+2024-01-12 17:18:53,369 - Epoch: 398, train loss: 0.0424
+2024-01-12 17:18:53,990 - Epoch: 399, train loss: 0.0423
+2024-01-12 17:18:54,613 - Epoch: 400, train loss: 0.0424
+2024-01-12 17:18:55,238 - Epoch: 401, train loss: 0.0422
+2024-01-12 17:18:55,862 - Epoch: 402, train loss: 0.0423
+2024-01-12 17:18:56,485 - Epoch: 403, train loss: 0.0424
+2024-01-12 17:18:57,108 - Epoch: 404, train loss: 0.0423
+2024-01-12 17:18:57,729 - Epoch: 405, train loss: 0.0425
+2024-01-12 17:18:58,352 - Epoch: 406, train loss: 0.0423
+2024-01-12 17:18:58,976 - Epoch: 407, train loss: 0.0423
+2024-01-12 17:18:59,600 - Epoch: 408, train loss: 0.0421
+2024-01-12 17:19:00,224 - Epoch: 409, train loss: 0.0422
+2024-01-12 17:19:00,847 - Epoch: 410, train loss: 0.0420
+2024-01-12 17:19:01,470 - Epoch: 411, train loss: 0.0419
+2024-01-12 17:19:02,094 - Epoch: 412, train loss: 0.0422
+2024-01-12 17:19:02,717 - Epoch: 413, train loss: 0.0420
+2024-01-12 17:19:03,342 - Epoch: 414, train loss: 0.0421
+2024-01-12 17:19:03,963 - Epoch: 415, train loss: 0.0422
+2024-01-12 17:19:04,586 - Epoch: 416, train loss: 0.0423
+2024-01-12 17:19:05,210 - Epoch: 417, train loss: 0.0422
+2024-01-12 17:19:05,832 - Epoch: 418, train loss: 0.0421
+2024-01-12 17:19:06,454 - Epoch: 419, train loss: 0.0420
+2024-01-12 17:19:07,076 - Epoch: 420, train loss: 0.0419
+2024-01-12 17:19:07,696 - Epoch: 421, train loss: 0.0420
+2024-01-12 17:19:08,322 - Epoch: 422, train loss: 0.0419
+2024-01-12 17:19:08,944 - Epoch: 423, train loss: 0.0420
+2024-01-12 17:19:09,567 - Epoch: 424, train loss: 0.0422
+2024-01-12 17:19:10,194 - Epoch: 425, train loss: 0.0420
+2024-01-12 17:19:10,815 - Epoch: 426, train loss: 0.0422
+2024-01-12 17:19:11,439 - Epoch: 427, train loss: 0.0419
+2024-01-12 17:19:12,062 - Epoch: 428, train loss: 0.0419
+2024-01-12 17:19:12,685 - Epoch: 429, train loss: 0.0421
+2024-01-12 17:19:13,309 - Epoch: 430, train loss: 0.0420
+2024-01-12 17:19:13,940 - Epoch: 431, train loss: 0.0419
+2024-01-12 17:19:14,563 - Epoch: 432, train loss: 0.0421
+2024-01-12 17:19:15,186 - Epoch: 433, train loss: 0.0422
+2024-01-12 17:19:15,808 - Epoch: 434, train loss: 0.0419
+2024-01-12 17:19:16,433 - Epoch: 435, train loss: 0.0419
+2024-01-12 17:19:17,058 - Epoch: 436, train loss: 0.0417
+2024-01-12 17:19:17,681 - Epoch: 437, train loss: 0.0419
+2024-01-12 17:19:18,303 - Epoch: 438, train loss: 0.0417
+2024-01-12 17:19:18,926 - Epoch: 439, train loss: 0.0418
+2024-01-12 17:19:19,549 - Epoch: 440, train loss: 0.0418
+2024-01-12 17:19:20,172 - Epoch: 441, train loss: 0.0420
+2024-01-12 17:19:20,795 - Epoch: 442, train loss: 0.0418
+2024-01-12 17:19:21,420 - Epoch: 443, train loss: 0.0420
+2024-01-12 17:19:22,045 - Epoch: 444, train loss: 0.0420
+2024-01-12 17:19:22,666 - Epoch: 445, train loss: 0.0418
+2024-01-12 17:19:23,289 - Epoch: 446, train loss: 0.0420
+2024-01-12 17:19:23,913 - Epoch: 447, train loss: 0.0419
+2024-01-12 17:19:24,534 - Epoch: 448, train loss: 0.0418
+2024-01-12 17:19:25,159 - Epoch: 449, train loss: 0.0418
+2024-01-12 17:19:25,781 - Epoch: 450, train loss: 0.0420
+2024-01-12 17:19:26,404 - Epoch: 451, train loss: 0.0419
+2024-01-12 17:19:27,028 - Epoch: 452, train loss: 0.0420
+2024-01-12 17:19:27,650 - Epoch: 453, train loss: 0.0420
+2024-01-12 17:19:28,274 - Epoch: 454, train loss: 0.0417
+2024-01-12 17:19:28,896 - Epoch: 455, train loss: 0.0417
+2024-01-12 17:19:29,518 - Epoch: 456, train loss: 0.0417
+2024-01-12 17:19:30,140 - Epoch: 457, train loss: 0.0421
+2024-01-12 17:19:30,761 - Epoch: 458, train loss: 0.0419
+2024-01-12 17:19:31,384 - Epoch: 459, train loss: 0.0417
+2024-01-12 17:19:32,007 - Epoch: 460, train loss: 0.0416
+2024-01-12 17:19:32,631 - Epoch: 461, train loss: 0.0417
+2024-01-12 17:19:33,253 - Epoch: 462, train loss: 0.0418
+2024-01-12 17:19:33,877 - Epoch: 463, train loss: 0.0417
+2024-01-12 17:19:34,501 - Epoch: 464, train loss: 0.0419
+2024-01-12 17:19:35,126 - Epoch: 465, train loss: 0.0417
+2024-01-12 17:19:35,749 - Epoch: 466, train loss: 0.0417
+2024-01-12 17:19:36,373 - Epoch: 467, train loss: 0.0415
+2024-01-12 17:19:36,996 - Epoch: 468, train loss: 0.0415
+2024-01-12 17:19:37,649 - Epoch: 469, train loss: 0.0416
+2024-01-12 17:19:38,272 - Epoch: 470, train loss: 0.0419
+2024-01-12 17:19:38,893 - Epoch: 471, train loss: 0.0417
+2024-01-12 17:19:39,516 - Epoch: 472, train loss: 0.0418
+2024-01-12 17:19:40,139 - Epoch: 473, train loss: 0.0418
+2024-01-12 17:19:40,760 - Epoch: 474, train loss: 0.0415
+2024-01-12 17:19:41,380 - Epoch: 475, train loss: 0.0417
+2024-01-12 17:19:42,003 - Epoch: 476, train loss: 0.0416
+2024-01-12 17:19:42,625 - Epoch: 477, train loss: 0.0416
+2024-01-12 17:19:43,249 - Epoch: 478, train loss: 0.0415
+2024-01-12 17:19:43,869 - Epoch: 479, train loss: 0.0416
+2024-01-12 17:19:44,492 - Epoch: 480, train loss: 0.0416
+2024-01-12 17:19:45,117 - Epoch: 481, train loss: 0.0414
+2024-01-12 17:19:45,738 - Epoch: 482, train loss: 0.0415
+2024-01-12 17:19:46,363 - Epoch: 483, train loss: 0.0419
+2024-01-12 17:19:46,984 - Epoch: 484, train loss: 0.0416
+2024-01-12 17:19:47,609 - Epoch: 485, train loss: 0.0417
+2024-01-12 17:19:48,232 - Epoch: 486, train loss: 0.0418
+2024-01-12 17:19:48,853 - Epoch: 487, train loss: 0.0414
+2024-01-12 17:19:49,474 - Epoch: 488, train loss: 0.0416
+2024-01-12 17:19:50,099 - Epoch: 489, train loss: 0.0416
+2024-01-12 17:19:50,722 - Epoch: 490, train loss: 0.0416
+2024-01-12 17:19:51,346 - Epoch: 491, train loss: 0.0415
+2024-01-12 17:19:51,969 - Epoch: 492, train loss: 0.0414
+2024-01-12 17:19:52,592 - Epoch: 493, train loss: 0.0415
+2024-01-12 17:19:53,213 - Epoch: 494, train loss: 0.0416
+2024-01-12 17:19:53,836 - Epoch: 495, train loss: 0.0416
+2024-01-12 17:19:54,459 - Epoch: 496, train loss: 0.0415
+2024-01-12 17:19:55,084 - Epoch: 497, train loss: 0.0415
+2024-01-12 17:19:55,705 - Epoch: 498, train loss: 0.0413
+2024-01-12 17:19:56,329 - Epoch: 499, train loss: 0.0411

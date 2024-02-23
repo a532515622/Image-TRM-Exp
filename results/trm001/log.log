@@ -1,0 +1,166 @@
+2024-01-11 17:56:31,784 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	8	
+batch_size: 	16	
+csv_file_path: 	./data/Input_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	1	
+lr: 	0.001	
+2024-01-11 18:01:24,330 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	8	
+batch_size: 	16	
+csv_file_path: 	./data/Input_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	1	
+lr: 	0.001	
+2024-01-11 18:05:24,717 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	8	
+batch_size: 	16	
+csv_file_path: 	./data/Input_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	1	
+lr: 	0.001	
+2024-01-11 18:07:44,108 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+csv_file_path: 	./data/Input_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	1	
+lr: 	0.001	
+2024-01-11 18:08:05,247 - Epoch: 0, train loss: 5.4332
+2024-01-11 18:08:06,506 - Epoch: 1, train loss: 0.0363
+2024-01-11 18:08:07,760 - Epoch: 2, train loss: 0.0103
+2024-01-11 18:08:09,007 - Epoch: 3, train loss: 0.0095
+2024-01-11 18:08:10,249 - Epoch: 4, train loss: 0.0102
+2024-01-11 18:08:11,487 - Epoch: 5, train loss: 0.0098
+2024-01-11 18:08:12,730 - Epoch: 6, train loss: 0.0111
+2024-01-11 18:08:13,976 - Epoch: 7, train loss: 0.0094
+2024-01-11 18:08:15,224 - Epoch: 8, train loss: 0.0083
+2024-01-11 18:08:16,464 - Epoch: 9, train loss: 0.0084
+2024-01-11 18:08:17,704 - Epoch: 10, train loss: 0.0076
+2024-01-11 18:08:18,949 - Epoch: 11, train loss: 0.0073
+2024-01-11 18:08:20,219 - Epoch: 12, train loss: 0.0083
+2024-01-11 18:08:21,744 - Epoch: 13, train loss: 0.0067
+2024-01-11 18:08:23,443 - Epoch: 14, train loss: 0.0066
+2024-01-11 18:08:24,934 - Epoch: 15, train loss: 0.0050
+2024-01-11 18:08:26,920 - Epoch: 16, train loss: 0.0054
+2024-01-11 18:08:28,482 - Epoch: 17, train loss: 0.0058
+2024-01-11 18:08:30,124 - Epoch: 18, train loss: 0.0063
+2024-01-11 18:08:31,386 - Epoch: 19, train loss: 0.0051
+2024-01-11 18:08:32,645 - Epoch: 20, train loss: 0.0044
+2024-01-11 18:08:33,883 - Epoch: 21, train loss: 0.0043
+2024-01-11 18:08:35,126 - Epoch: 22, train loss: 0.0041
+2024-01-11 18:08:36,367 - Epoch: 23, train loss: 0.0034
+2024-01-11 18:08:37,616 - Epoch: 24, train loss: 0.0033
+2024-01-11 18:08:38,864 - Epoch: 25, train loss: 0.0035
+2024-01-11 18:08:40,115 - Epoch: 26, train loss: 0.0030
+2024-01-11 18:08:41,374 - Epoch: 27, train loss: 0.0026
+2024-01-11 18:08:42,619 - Epoch: 28, train loss: 0.0024
+2024-01-11 18:08:43,871 - Epoch: 29, train loss: 0.0024
+2024-01-11 18:08:45,115 - Epoch: 30, train loss: 0.0023
+2024-01-11 18:08:46,356 - Epoch: 31, train loss: 0.0023
+2024-01-11 18:08:47,594 - Epoch: 32, train loss: 0.0027
+2024-01-11 18:08:48,838 - Epoch: 33, train loss: 0.0019
+2024-01-11 18:08:50,076 - Epoch: 34, train loss: 0.0017
+2024-01-11 18:08:51,321 - Epoch: 35, train loss: 0.0016
+2024-01-11 18:08:52,563 - Epoch: 36, train loss: 0.0017
+2024-01-11 18:08:53,808 - Epoch: 37, train loss: 0.0013
+2024-01-11 18:08:55,046 - Epoch: 38, train loss: 0.0010
+2024-01-11 18:08:56,292 - Epoch: 39, train loss: 0.0010
+2024-01-11 18:08:57,537 - Epoch: 40, train loss: 0.0010
+2024-01-11 18:08:58,780 - Epoch: 41, train loss: 0.0009
+2024-01-11 18:09:00,025 - Epoch: 42, train loss: 0.0009
+2024-01-11 18:09:01,266 - Epoch: 43, train loss: 0.0008
+2024-01-11 18:09:02,515 - Epoch: 44, train loss: 0.0007
+2024-01-11 18:09:03,768 - Epoch: 45, train loss: 0.0007
+2024-01-11 18:09:05,124 - Epoch: 46, train loss: 0.0007
+2024-01-11 18:09:06,605 - Epoch: 47, train loss: 0.0006
+2024-01-11 18:09:08,090 - Epoch: 48, train loss: 0.0008
+2024-01-11 18:09:09,760 - Epoch: 49, train loss: 0.0004
+2024-01-12 15:58:39,556 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/train_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
+2024-01-12 15:59:45,429 - 
+use_gpu: 	True	
+gpu: 	0	
+res_dir: 	./results	
+ex_name: 	trm001	
+seed: 	1	
+sample_size: 	16	
+batch_size: 	32	
+train_file_path: 	./data/train_data.csv	
+val_file_path: 	./data/val_data.csv	
+num_workers: 	6	
+input_dim: 	49	
+d_model: 	512	
+nhead: 	8	
+num_encoder_layers: 	6	
+num_decoder_layers: 	6	
+dim_feedforward: 	2048	
+epochs: 	50	
+log_step: 	50	
+lr: 	0.001	
